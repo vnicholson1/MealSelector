@@ -1,0 +1,12 @@
+[Unit]
+Description=service to run meal selector server as a background service
+After=network.target
+
+[Service]
+Type=simple
+User=pi
+WorkingDirectory=/home/pi/MealSelector
+ExecStart=/home/pi/MealSelector/meal-selector-start.sh
+
+[Install]
+WantedBy=multi-user.target
