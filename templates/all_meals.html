@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        table,
+        th,
+        td {
+            border: 0.5px solid black;
+        }
+    </style>
+</head>
+
+<body>
+
+    <form action="/">
+        <input type="submit" value="Back">
+    </form>
+
+    <h2>Add Meal</h2>
+
+
+    <form action="/add-meal" method="post">
+        <label for="meal">Meal</label><br>
+        <input type="text" id="meal" name="meal"><br>
+
+        <label for="protein">Protein Type</label><br>
+        <input type="text" id="protein" name="protein"><br>
+
+        <label for="carb">Carb Type</label><br>
+        <input type="text" id="carb" name="carb"><br>
+
+        <label for="sauce">Sauce</label><br>
+        <input type="text" id="sauce" name="sauce"><br>
+
+        <label for="veg">Veg needed</label><br>
+        <input type="text" id="veg" name="veg"><br>
+
+        <label for="optional_veg">Optional veg</label><br>
+        <input type="text" id="optional_veg" name="optional_veg"><br>
+
+        {{message}} <br>
+        <input type="submit" value="Submit">
+    </form>
+
+    <h2> Delete Meal</h2>
+
+    <form action="/delete-meal" method="post">
+        <label for="meal">Meal</label><br>
+        <input type="text" id="meal" name="meal"><br>
+
+        {{message_2}} <br>
+        <input type="submit" value="Submit">
+    </form>
+
+    <h2>All Meals</h2>
+
+    <table>
+        {% for i, meal in enumerate(meals) %}
+        <tr>
+            {% for m in meal %}
+            {% if i == 0 %}
+            <th>{{ m }}</th>
+            {% else %}
+            <td> {{ m }}</td>
+            {% endif %}
+            {% endfor %}
+        </tr>
+        {% endfor %}
+    </table>
+
+</body>
+
+</html>

@@ -1,0 +1,75 @@
+ * Serving Flask app 'main' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:3000
+ * Running on http://192.168.1.123:3000
+Press CTRL+C to quit
+192.168.1.145 - - [27/Nov/2024 18:11:48] "GET / HTTP/1.1" 200 -
+192.168.1.194 - - [27/Nov/2024 18:12:40] "GET / HTTP/1.1" 200 -
+192.168.1.194 - - [27/Nov/2024 18:12:42] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.1.194 - - [27/Nov/2024 18:15:35] "GET / HTTP/1.1" 200 -
+192.168.1.194 - - [27/Nov/2024 18:15:58] "GET / HTTP/1.1" 200 -
+192.168.1.194 - - [27/Nov/2024 18:16:12] "GET / HTTP/1.1" 200 -
+192.168.1.194 - - [27/Nov/2024 18:16:15] "GET / HTTP/1.1" 200 -
+192.168.1.194 - - [27/Nov/2024 18:16:24] "GET / HTTP/1.1" 200 -
+192.168.1.194 - - [27/Nov/2024 18:16:37] "GET /get-all-meals HTTP/1.1" 200 -
+192.168.1.194 - - [08/Dec/2024 13:50:06] "GET / HTTP/1.1" 200 -
+192.168.1.194 - - [08/Dec/2024 13:50:06] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.1.194 - - [08/Dec/2024 13:52:49] "GET / HTTP/1.1" 200 -
+192.168.1.194 - - [08/Dec/2024 13:53:03] "GET / HTTP/1.1" 200 -
+192.168.1.194 - - [08/Dec/2024 13:54:46] "GET /get-all-meals HTTP/1.1" 200 -
+192.168.1.194 - - [08/Dec/2024 15:50:06] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.1.194 - - [09/Dec/2024 11:26:09] "GET / HTTP/1.1" 200 -
+192.168.1.194 - - [09/Dec/2024 12:16:32] "GET / HTTP/1.1" 200 -
+192.168.1.194 - - [09/Dec/2024 12:29:44] "GET / HTTP/1.1" 200 -
+192.168.1.194 - - [18/Dec/2024 17:40:52] "GET / HTTP/1.1" 200 -
+192.168.1.194 - - [18/Dec/2024 17:40:53] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.1.194 - - [18/Dec/2024 17:41:45] "GET /get-all-meals HTTP/1.1" 200 -
+192.168.1.194 - - [18/Dec/2024 17:42:13] "POST /add-meal HTTP/1.1" 200 -
+192.168.1.194 - - [18/Dec/2024 17:42:17] "GET / HTTP/1.1" 200 -
+192.168.1.194 - - [18/Dec/2024 17:42:24] "GET /generate-meals HTTP/1.1" 200 -
+192.168.1.194 - - [18/Dec/2024 17:42:41] "GET /generate-meals HTTP/1.1" 200 -
+192.168.1.194 - - [18/Dec/2024 17:46:43] "GET /get-all-meals HTTP/1.1" 200 -
+192.168.1.194 - - [18/Dec/2024 17:55:09] "GET /favicon.ico HTTP/1.1" 404 -
+ * Serving Flask app 'main' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:3000
+ * Running on http://192.168.1.123:3000
+Press CTRL+C to quit
+192.168.1.194 - - [04/Jan/2025 15:10:09] "GET / HTTP/1.1" 200 -
+192.168.1.194 - - [04/Jan/2025 15:10:09] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.1.145 - - [04/Jan/2025 15:10:13] "GET / HTTP/1.1" 200 -
+192.168.1.145 - - [04/Jan/2025 15:10:13] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.1.145 - - [04/Jan/2025 15:15:19] "GET /generate-meals HTTP/1.1" 200 -
+192.168.1.145 - - [04/Jan/2025 15:15:53] "GET /generate-meals HTTP/1.1" 200 -
+192.168.1.145 - - [04/Jan/2025 15:20:44] "GET /generate-meals HTTP/1.1" 200 -
+192.168.1.145 - - [04/Jan/2025 15:21:03] "GET /get-all-meals HTTP/1.1" 200 -
+192.168.1.145 - - [04/Jan/2025 15:21:03] "GET /get-all-meals HTTP/1.1" 200 -
+192.168.1.194 - - [04/Jan/2025 16:06:34] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.1.237 - - [07/Jan/2025 17:46:46] "GET / HTTP/1.1" 200 -
+192.168.1.237 - - [07/Jan/2025 17:46:47] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.1.237 - - [07/Jan/2025 17:46:55] "GET /generate-meals HTTP/1.1" 200 -
+192.168.1.237 - - [07/Jan/2025 17:47:00] "GET /generate-meals HTTP/1.1" 200 -
+192.168.1.237 - - [07/Jan/2025 17:47:12] "GET /generate-meals HTTP/1.1" 200 -
+192.168.1.237 - - [15/Jan/2025 17:56:36] "GET / HTTP/1.1" 200 -
+192.168.1.237 - - [15/Jan/2025 17:56:36] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.1.237 - - [15/Jan/2025 17:56:48] "GET /generate-meals HTTP/1.1" 200 -
+192.168.1.237 - - [15/Jan/2025 17:56:56] "GET /generate-meals HTTP/1.1" 200 -
+192.168.1.145 - - [17/Jan/2025 20:25:59] "GET / HTTP/1.1" 200 -
+192.168.1.145 - - [17/Jan/2025 20:26:00] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.1.145 - - [17/Jan/2025 20:31:40] "GET /get-all-meals HTTP/1.1" 200 -
+192.168.1.237 - - [02/Feb/2025 20:30:00] "GET / HTTP/1.1" 200 -
+192.168.1.237 - - [02/Feb/2025 20:30:00] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.1.237 - - [02/Feb/2025 20:38:20] "GET /generate-meals HTTP/1.1" 200 -
+192.168.1.237 - - [02/Feb/2025 20:38:26] "GET /generate-meals HTTP/1.1" 200 -
+192.168.1.145 - - [16/Feb/2025 19:22:39] "GET / HTTP/1.1" 200 -
+192.168.1.145 - - [16/Feb/2025 19:22:40] "GET /favicon.ico HTTP/1.1" 404 -

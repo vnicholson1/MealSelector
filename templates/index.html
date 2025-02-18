@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        table,
+        th,
+        td {
+            border: 0.5px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Meal Selector!</h1>
+
+    <h2> Generate Meals</h2>
+
+    <table>
+        {% for i, meal in enumerate(random_meals) %}
+        <tr>
+            {% for m in meal %}
+            {% if i == 0 %}
+            <th>{{ m }}</th>
+            {% else %}
+            <td> {{ m }}</td>
+            {% endif %}
+            {% endfor %}
+        </tr>
+        {% endfor %}
+    </table>
+
+    <form action="/generate-meals">
+        <input type="submit" value="Generate meals" />
+    </form>
+
+    <br>
+
+    <form action="/get-all-meals">
+        <input type="submit" value="See all meals" />
+    </form>
+
+    <h2>Shopping List</h2>
+
+    <table>
+        <tr>
+            <th><b>Order every week</b></th>
+            <th><b>Check every week</b></th>
+        </tr>
+        <tr>
+            <td>Milk</td>
+            <td>Cereal</td>
+        </tr>
+        <tr>
+            <td>Bananas</td>
+            <td>Apple Juice</td>
+        </tr>
+        <tr>
+            <td>Crisps</td>
+            <td>Orange Juice</td>
+        </tr>
+        <tr>
+            <td>Puddings</td>
+            <td>Cheese</td>
+        </tr>
+        <tr>
+            <td>Lemonade x 1</td>
+            <td>Onions</td>
+        </tr>
+        <tr>
+            <td>Soy Milk x 1</td>
+            <td>Peppers</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>Bread</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>Poppadoms</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>Prawn crackers</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>Quorn pieces</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>Toilet roll</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>Eggs</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>Chips</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>Frozen peas</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>Mushrooms</td>
+        </tr>
+    </table>
+
+</body>
+
+</html>
