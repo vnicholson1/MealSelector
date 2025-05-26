@@ -30,7 +30,7 @@ def add_meal():
     if not message:
         with open('meals.csv', 'a') as csv_file:
             writer = csv.writer(csv_file)
-            writer.writerow([request.form['meal'], request.form['protein'], request.form['carb'], request.form['sauce'], request.form['veg'], request.form['optional_veg']])
+            writer.writerow([request.form['meal'], request.form['protein'], request.form['carb'], request.form['sauce'], request.form['veg'], request.form['optional_veg'], request.form['recipe_links']])
         message= f"meal with name {request.form['meal']} added successfully"
 
     meals = get_all_meals_from_csv()
@@ -78,7 +78,7 @@ def pick_random_meals(meals: list):
 def get_all_meals_from_csv():
     with open('meals.csv') as csv_file:
         reader = csv.reader(csv_file)
-        meals = [r for r in reader]
+        meals = [r for r in reader if len(r) > 0]
     header = meals.pop(0)
     meals = sorted(meals, key=lambda x: x[0])
     meals.insert(0, header)

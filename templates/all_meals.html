@@ -39,6 +39,9 @@
         <label for="optional_veg">Optional veg</label><br>
         <input type="text" id="optional_veg" name="optional_veg"><br>
 
+        <label for="optional_veg">Recipe Links</label><br>
+        <textarea id="recipe_links" name="recipe_links" cols="40" rows="5"></textarea><br>
+
         {{message}} <br>
         <input type="submit" value="Submit">
     </form>
@@ -58,11 +61,21 @@
     <table>
         {% for i, meal in enumerate(meals) %}
         <tr>
-            {% for m in meal %}
+            {% for j, m in enumerate(meal) %}
+            <!-- CSV Header -->
             {% if i == 0 %}
             <th>{{ m }}</th>
             {% else %}
-            <td> {{ m }}</td>
+            <!-- Recipe Link Cell-->
+            {% if j == 7 %}
+            <td>
+                {% for link in m.split("\n") %}
+                <a href="{{ link }}">{{ link }}</a><br>
+                {% endfor %}
+            </td>
+            {% else %}
+            <td>{{ m }}</td>
+            {% endif %}
             {% endif %}
             {% endfor %}
         </tr>
