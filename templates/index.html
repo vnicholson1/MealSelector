@@ -19,11 +19,21 @@
     <table>
         {% for i, meal in enumerate(random_meals) %}
         <tr>
-            {% for m in meal %}
+            {% for j, m in enumerate(meal) %}
+            <!-- CSV Header -->
             {% if i == 0 %}
             <th>{{ m }}</th>
             {% else %}
-            <td> {{ m }}</td>
+            <!-- Recipe Link Cell-->
+            {% if j == 6 %}
+            <td>
+                {% for link in m.split("\n") %}
+                <a href="{{ link }}">{{ link }}</a><br>
+                {% endfor %}
+            </td>
+            {% else %}
+            <td>{{ m }}</td>
+            {% endif %}
             {% endif %}
             {% endfor %}
         </tr>
