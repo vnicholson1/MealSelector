@@ -79,7 +79,9 @@ def get_all_meals_from_csv():
     with open('meals.csv') as csv_file:
         reader = csv.reader(csv_file)
         meals = [r for r in reader]
+    header = meals.pop(0)
     meals = sorted(meals, key=lambda x: x[0])
+    meals.insert(0, header)
     return meals
 
 
