@@ -9,14 +9,14 @@ Curry,Quorn pieces,Rice,Curry sauce,,,""
 Enchiladas,Quorn pieces,Tortilla,n/a,,,
 Fajitas,Quorn pieces,Tortilla,n/a,Pepper,Tomatoes,
 Green thai curry,"Tofu, Quorn Pieces",Rice,Green Thai Paste,,,
-Halloumi salad,Cheese,Quinoa,n/a,"Pepper, mushroom",,
-Homemade pie,Quorn pieces,Pastry,,,,
+Halloumi salad,Cheese,Quinoa,n/a,"Pepper, mushroom",,"http://192.168.1.123:5000/Recipe_Result.html?recipeName=Quinoa%20salad%20with%20grilled%20halloumi"
+Homemade pie,Quorn pieces,Pastry,,,,"https://www.bbc.co.uk/food/recipes/chickenandmushroompi_89034"
 Honey and mustard,Quorn pieces,"Rice, Potato",Honey and mustard sauce,,,
 Lasagne,Quorn mince,Pasta,"Red sauce, white sauce",,,
 Meatballs,Meatballs,Potato,"Pasta sauce, Gravy",n/a,n/a,
 Meatballs and spaghetti,Meatballs,Pasta,Pasta sauce,,,
 Nachos,,,,,,
-Pad thai,"Tofu, Quorn Pieces",Noodles,n/a,,,
+Pad thai,"Tofu, Quorn Pieces",Noodles,n/a,,,"http://192.168.1.123:5000/Recipe_Result.html?recipeName=Pad%20Thai"
 Paella,"Sausage, Quorn pieces",Rice,,,,
 Pasta bake,Chickpeas,Pasta,Pasta bake sauce,,Spinach,
 Pies,n/a,Potato,Gravy,,,
