@@ -1,87 +1,139 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Meal Editor</title>
+
     <style>
-        table,
-        th,
-        td {
-            border: 0.5px solid black;
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 16px;
+            background: #f9f9f9;
+        }
+
+        h2 {
+            margin-top: 24px;
+        }
+
+        .card {
+            background: white;
+            padding: 16px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+        }
+
+        label {
+            font-weight: bold;
+        }
+
+        input, textarea, button {
+            width: 100%;
+            padding: 10px;
+            margin-top: 4px;
+            margin-bottom: 12px;
+            font-size: 16px;
+        }
+
+        .table-wrapper {
+            overflow-x: auto;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            min-width: 600px;
+        }
+
+        th, td {
+            border: 1px solid #ccc;
+            padding: 8px;
+        }
+
+        th {
+            background: #eee;
         }
     </style>
 </head>
 
 <body>
 
-    <form action="/">
-        <input type="submit" value="Back">
-    </form>
+<form action="/">
+    <input type="submit" value="← Back">
+</form>
 
+<div class="card">
     <h2>Add Meal</h2>
 
-
     <form action="/add-meal" method="post">
-        <label for="meal">Meal</label><br>
-        <input type="text" id="meal" name="meal"><br>
+        <label>Meal</label>
+        <input type="text" name="meal">
 
-        <label for="protein">Protein Type</label><br>
-        <input type="text" id="protein" name="protein"><br>
+        <label>Protein Type</label>
+        <input type="text" name="protein">
 
-        <label for="carb">Carb Type</label><br>
-        <input type="text" id="carb" name="carb"><br>
+        <label>Carb Type</label>
+        <input type="text" name="carb">
 
-        <label for="sauce">Sauce</label><br>
-        <input type="text" id="sauce" name="sauce"><br>
+        <label>Sauce</label>
+        <input type="text" name="sauce">
 
-        <label for="veg">Veg needed</label><br>
-        <input type="text" id="veg" name="veg"><br>
+        <label>Veg Needed</label>
+        <input type="text" name="veg">
 
-        <label for="optional_veg">Optional veg</label><br>
-        <input type="text" id="optional_veg" name="optional_veg"><br>
+        <label>Optional Veg</label>
+        <input type="text" name="optional_veg">
 
-        <label for="optional_veg">Recipe Links</label><br>
-        <textarea id="recipe_links" name="recipe_links" cols="40" rows="5"></textarea><br>
+        <label>Recipe Links (one per line)</label>
+        <textarea name="recipe_links" rows="5"></textarea>
 
-        {{message}} <br>
-        <input type="submit" value="Submit">
+        {{ message }}
+        <input type="submit" value="Add Meal">
     </form>
+</div>
 
-    <h2> Delete Meal</h2>
+<div class="card">
+    <h2>Delete Meal</h2>
 
     <form action="/delete-meal" method="post">
-        <label for="meal">Meal</label><br>
-        <input type="text" id="meal" name="meal"><br>
+        <label>Meal</label>
+        <input type="text" name="meal">
 
-        {{message_2}} <br>
-        <input type="submit" value="Submit">
+        {{ message_2 }}
+        <input type="submit" value="Delete Meal">
     </form>
+</div>
 
+<div class="card">
     <h2>All Meals</h2>
 
-    <table>
-        {% for i, meal in enumerate(meals) %}
-        <tr>
-            {% for j, m in enumerate(meal) %}
-            <!-- CSV Header -->
-            {% if i == 0 %}
-            <th>{{ m }}</th>
-            {% else %}
-            <!-- Recipe Link Cell-->
-            {% if j == 6 %}
-            <td>
-                {% for link in m.split("\n") %}
-                <a href="{{ link }}">{{ link }}</a><br>
+    <div class="table-wrapper">
+        <table>
+            {% for i, meal in enumerate(meals) %}
+            <tr>
+                {% for j, m in enumerate(meal) %}
+                    {% if i == 0 %}
+                        <th>{{ m }}</th>
+                    {% else %}
+                        {% if j == 6 %}
+                            <td>
+                                {% for link in m.split("\n") %}
+                                    <a href="{{ link }}">{{ link }}</a><br>
+                                {% endfor %}
+                            </td>
+                        {% else %}
+                            <td>{{ m }}</td>
+                        {% endif %}
+                    {% endif %}
                 {% endfor %}
-            </td>
-            {% else %}
-            <td>{{ m }}</td>
-            {% endif %}
-            {% endif %}
+            </tr>
             {% endfor %}
-        </tr>
-        {% endfor %}
-    </table>
+        </table>
+    </div>
+</div>
 
 </body>
-
 </html>
