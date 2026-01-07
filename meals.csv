@@ -1,39 +1,42 @@
 Meal,Protein type,Carb type,Sauce,Veg needed,Optional veg, Recipe Links
 Bolognese,Quorn mince,Pasta,Bolognese Sauce,,,
 Burgers,n/a,"Bread, potato",,,Salad,
+Carbonara,Bacon,Pasta,,,,
+Casserole,Sausage/Quorn,Potatoe,Casserole,,,
 Cauliflower cheese,,,,,,
 Chicken in white wine sauce,"Quorn pieces, Quorn fillets",Potato,,,,
 Chilli,Quorn mince,Rice,Chilli sauce,,,
 Crispbakes,n/a,Potato,n/a,,,
-Curry,Quorn pieces,Rice,Curry sauce,,,""
+Curry,Quorn pieces,Rice,Curry sauce,,,
 Enchiladas,Quorn pieces,Tortilla,n/a,,,
 Fajitas,Quorn pieces,Tortilla,n/a,Pepper,Tomatoes,
 Green thai curry,"Tofu, Quorn Pieces",Rice,Green Thai Paste,,,
-Halloumi salad,Cheese,Quinoa,n/a,"Pepper, mushroom",,"http://192.168.1.123:5000/Recipe_Result.html?recipeName=Quinoa%20salad%20with%20grilled%20halloumi"
-Homemade pie,Quorn pieces,Pastry,,,,"https://www.bbc.co.uk/food/recipes/chickenandmushroompi_89034"
+Halloumi salad,Cheese,Quinoa,n/a,"Pepper, mushroom",,http://192.168.1.123:5000/Recipe_Result.html?recipeName=Quinoa%20salad%20with%20grilled%20halloumi
+Homemade pie,Quorn pieces,Pastry,,,,https://www.bbc.co.uk/food/recipes/chickenandmushroompi_89034
 Honey and mustard,Quorn pieces,"Rice, Potato",Honey and mustard sauce,,,
+Hot dogs,sausage,bread,,,salad?,
+Kebabs,Veggie kebab meat,Pitta bread,,Salad,,
 Lasagne,Quorn mince,Pasta,"Red sauce, white sauce",,,
 Meatballs,Meatballs,Potato,"Pasta sauce, Gravy",n/a,n/a,
 Meatballs and spaghetti,Meatballs,Pasta,Pasta sauce,,,
 Nachos,,,,,,
-Pad thai,"Tofu, Quorn Pieces",Noodles,n/a,,,"http://192.168.1.123:5000/Recipe_Result.html?recipeName=Pad%20Thai"
+Pad thai,"Tofu, Quorn Pieces",Noodles,n/a,,,http://192.168.1.123:5000/Recipe_Result.html?recipeName=Pad%20Thai
 Paella,"Sausage, Quorn pieces",Rice,,,,
 Pasta bake,Chickpeas,Pasta,Pasta bake sauce,,Spinach,
 Pies,n/a,Potato,Gravy,,,
 Pizza,n/a,Pizza base,n/a,n/a,Salad,
+Quiche,,Pastry,,Salad,,
 Red thai curry,"Tofu, Quorn Pieces",Rice,Red Thai Paste,,,
 Risotto ,Sausage,Rice,n/a,Peas,,
-Roast dinner,Quorn,Potato,Gravy,,,"https://glutenfreecuppatea.co.uk/2017/10/01/gluten-free-yorkshire-pudding-recipe-dairy-free-low-fodmap/"
+Roast dinner,Quorn,Potato,Gravy,,,https://glutenfreecuppatea.co.uk/2017/10/01/gluten-free-yorkshire-pudding-recipe-dairy-free-low-fodmap/
 Roasted vegetables,"Quorn pieces, Chickpeas","Garlic bread, Potato",n/a,Lots...,,
 Sausage and Mash,Sausage,Potato,Gravy,,,
 Shepherd's Pie,Quorn mince,Potato,Gravy,,,
 Spanish 'chicken',"Quorn pieces, Sausage, Halloumi",Potato,Spanish chicken sauce,Pepper,,
 Stir fry,"Tofu, Quorn Pieces","Noodles, Rice",Sweet and sour or kung po,,,
-Stroganoff,"Sausage, Mushroom",,,,,"https://www.bbc.co.uk/food/recipes/mushroom_stroganoff_with_83256"
+Stroganoff,"Sausage, Mushroom",,,,,https://www.bbc.co.uk/food/recipes/mushroom_stroganoff_with_83256
 Stuffed peppers,Quorn mince,Potato,,Pepper,,
-Toad in the hole,Sausge,Batter,Gravy,,,"https://glutenfreecuppatea.co.uk/2015/05/13/recipe-gluten-free-toad-in-the-hole-dairy-free-option/"
-Kebabs,Veggie kebab meat,Pitta bread,,Salad,,
-Carbonara,Bacon,Pasta,,,,
-Quiche,,Pastry,,Salad,,
-Hot dogs,sausage,bread,,,salad?,
-Casserole,Sausage/Quorn,Potatoe,Casserole,,,
+Tacos,Quorn mince,Tacos,,Salad,,
+Toad in the hole,Sausge,Batter,Gravy,,,https://glutenfreecuppatea.co.uk/2015/05/13/recipe-gluten-free-toad-in-the-hole-dairy-free-option/
+Wan-Chai Fried Rice Bowl,,Rice,,,,
+Ramen,Tofu,Noodles,"Tahini, soy sauce","Carrot, bean sprouts, Pak choi, mushrooms, ginger",,https://www.bbcgoodfood.com/recipes/vegan-ramen
