@@ -30,7 +30,7 @@
             font-weight: bold;
         }
 
-        input, textarea, button {
+        input, textarea {
             width: 100%;
             padding: 10px;
             margin-top: 4px;
@@ -38,6 +38,7 @@
             font-size: 16px;
         }
 
+        /* Table styling */
         .table-wrapper {
             overflow-x: auto;
         }
@@ -56,13 +57,60 @@
         th {
             background: #eee;
         }
+
+        /* Button styling */
+        button,
+        input[type="submit"] {
+            appearance: none;
+            border: none;
+            border-radius: 8px;
+            padding: 12px 16px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            width: 100%;
+            transition: background-color 0.15s ease, transform 0.05s ease;
+        }
+
+        .btn-primary {
+            background: #2563eb;
+            color: white;
+            box-shadow: 0 4px 10px rgba(37, 99, 235, 0.25);
+        }
+
+        .btn-primary:hover {
+            background: #1d4ed8;
+        }
+
+        .btn-secondary {
+            background: #e5e7eb;
+            color: #111827;
+        }
+
+        .btn-secondary:hover {
+            background: #d1d5db;
+        }
+
+        .btn-danger {
+            background: #dc2626;
+            color: white;
+        }
+
+        .btn-danger:hover {
+            background: #b91c1c;
+        }
+
+        button:active,
+        input[type="submit"]:active {
+            transform: scale(0.98);
+        }
     </style>
 </head>
 
 <body>
 
-<form action="/">
-    <input type="submit" value="← Back">
+<form action="/" class="back-form">
+    <button type="submit" class="btn-back">← Back to meals</button>
 </form>
 
 <div class="card">
@@ -91,7 +139,7 @@
         <textarea name="recipe_links" rows="5"></textarea>
 
         {{ message }}
-        <input type="submit" value="Add Meal">
+        <input type="submit" value="Add Meal" class="btn-primary">
     </form>
 </div>
 
@@ -103,7 +151,7 @@
         <input type="text" name="meal">
 
         {{ message_2 }}
-        <input type="submit" value="Delete Meal">
+        <input type="submit" value="Delete Meal" class="btn-danger">
     </form>
 </div>
 
