@@ -12,7 +12,7 @@ def main():
     return render_template('index.html',  random_meals=random_meals, enumerate=enumerate)
 
 
-@app.route('/generate-meals')
+@app.route('/generate-meals', methods=['POST'])
 def generate_meals():
     meals = get_all_meals_from_csv()
     random_meals = pick_random_meals(meals)

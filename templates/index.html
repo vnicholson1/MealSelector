@@ -90,21 +90,6 @@
             transform: scale(0.98);
         }
     </style>
-    <script>
-        // Restore scroll position after reload
-        window.addEventListener("load", () => {
-            const scrollY = sessionStorage.getItem("scrollY");
-            if (scrollY !== null) {
-                window.scrollTo(0, parseInt(scrollY, 10));
-                sessionStorage.removeItem("scrollY");
-            }
-        });
-
-        // Save scroll position before form submit
-        document.addEventListener("submit", () => {
-            sessionStorage.setItem("scrollY", window.scrollY);
-        });
-    </script>
 </head>
 
 <body>
@@ -114,7 +99,7 @@
 <div class="card">
     <h2>Generated Meals</h2>
 
-    <div class="table-wrapper">
+    <div class="table-wrapper" id="meals">
         <table>
             {% for i, meal in enumerate(random_meals) %}
             <tr>
@@ -138,7 +123,7 @@
         </table>
     </div>
 
-    <form action="/generate-meals">
+    <form action="/generate-meals#meals" method="post">
         <input type="submit" value="Generate Meals" class="btn-primary">
     </form>
 
