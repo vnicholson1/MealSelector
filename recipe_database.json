@@ -1,0 +1,1501 @@
+[
+    {
+        "recipe_id": 5,
+        "recipe_name": "Chowder",
+        "meal_type": "Lunch",
+        "skill_level": "Medium",
+        "servings": 4,
+        "hours": 0,
+        "minutes": 30,
+        "ingredients": [
+            "250g (9oz) unsmoked bacon chops",
+            "trimmed of all fat and cut into small pieces",
+            "1 medium onion",
+            "chopped",
+            "375g (13oz) potato",
+            "peeled and cut into small cubes",
+            "800ml (28 floz) hot chicken stock",
+            "326g (11 1/2oz) tinned sweetcorn",
+            "drained "
+        ],
+        "method": [
+            "Heat 1 tbsp of oil in a saucepan and cook the bacon for 4 mins",
+            "remove and set aside. Add another tbsp of oil",
+            "add the onion and cook until soft. Add the potato and stock.",
+            "Cover and simmer for 15 mins.",
+            "Remove half the mix and set aside with the bacon. Pur\u00c3\u00a9e rest of the potato and onion with the stock and half the sweetcorn in a processor. Season with pepper and return to the pan",
+            "add the bacon mix and sweetcorn",
+            "heat through and serve."
+        ],
+        "notes": [],
+        "categories": []
+    },
+    {
+        "recipe_id": 7,
+        "recipe_name": "Dumplings",
+        "meal_type": "Dinner",
+        "skill_level": "Easy",
+        "servings": 0,
+        "hours": 0,
+        "minutes": 35,
+        "ingredients": [
+            "100g GF self raising flour (e.g. Doves Farm) ",
+            "1tsp dry english mustard powder (e.g. colmans) optional ",
+            "50g grated butter (cold from fridge or freezer) ",
+            "1/2 tsp salt (optional) ",
+            "2-3 tbsp cold water"
+        ],
+        "method": [
+            "Mix flour and mustard and salt (if using) in a bowl ",
+            "Grate cold butter into the bowl of flour ",
+            "Bring together mixture with hands (don't over work it) ",
+            "Add enough water to form a soft dough ",
+            "Divide dumplings into balls of equal size (as required) ",
+            "Place dumplings on top of cooked casserole and continue cooking for about 30 minutes. (Oven",
+            "hob",
+            "or slow cooker on high). "
+        ],
+        "notes": [],
+        "categories": []
+    },
+    {
+        "recipe_id": 8,
+        "recipe_name": "Flourless Brownies",
+        "meal_type": "Dessert",
+        "skill_level": "Easy",
+        "servings": 0,
+        "hours": 0,
+        "minutes": 45,
+        "ingredients": [
+            "75 g (3oz) unsalted butter",
+            "chopped",
+            "plus extra to grease",
+            "250 g (9oz) dark chocolate (70% cocoa solids)",
+            "chopped",
+            "15 g (\u00c2\u00bdoz) cocoa powder",
+            "2 tsp vanilla extract",
+            "250 g (9oz) caster sugar",
+            "4 large eggs",
+            "100 g (3\u00c2\u00bdoz) ground almonds"
+        ],
+        "method": [
+            "1.\tPreheat oven to 180\u00c2\u00b0C (160\u00c2\u00b0C fan) mark 4. Lightly grease and line a 20.5cm (8in) square tin with baking parchment. Melt the chocolate and butter together in a large pan over a low heat",
+            "stirring occasionally. Take off heat and whisk in cocoa powder",
+            "vanilla and sugar until combined.",
+            "2.\tNext whisk in the eggs",
+            "one at a time",
+            "before stirring in the ground almonds. Scrape into the prepared tin and level. Bake for 25-30min or until firm to the touch. Leave to cool completely in tin. Chill for at least 1hr before cutting into squares.",
+            "3.\tTo store: Once chilled keep well wrapped in foil or in an airtight container at room temperature for up to 5 days"
+        ],
+        "notes": [],
+        "categories": [
+            "Cake"
+        ]
+    },
+    {
+        "recipe_id": 10,
+        "recipe_name": "GF Flourless Chocolate Cake",
+        "meal_type": "Dessert",
+        "skill_level": "Easy",
+        "servings": 0,
+        "hours": 0,
+        "minutes": 45,
+        "ingredients": [
+            "200g Ground almonds ",
+            "200g Sugar ",
+            "200g Butter ",
+            "Eggs x 4 (roughly 200g!) ",
+            "200g Melted chocolate (70% cocoa)"
+        ],
+        "method": [
+            "Blend the first four ingredients together then add the chocolate. Scoop into silicone cake tray or greased tin. 35 minutes at 180c convection oven. You might need to adjust the time depending on your oven and the height of the shelf. "
+        ],
+        "notes": [],
+        "categories": [
+            "Baked",
+            "Cake"
+        ]
+    },
+    {
+        "recipe_id": 9,
+        "recipe_name": "GF Chocolate Mug Cake",
+        "meal_type": "Dessert",
+        "skill_level": "Easy",
+        "servings": 2,
+        "hours": 0,
+        "minutes": 5,
+        "ingredients": [
+            "25g crushed hazelnuts",
+            "almonds or walnuts",
+            "1 large egg",
+            "25g caster sugar",
+            "25g good quality dark chocolate"
+        ],
+        "method": [
+            "Gently stir in the egg whte.",
+            "Whisk the egg white until stiff.",
+            "Melt the chocolate.",
+            "Stir in the crushed nuts.",
+            "Seperate the egg.",
+            "Get out your electric whisk.",
+            "Whisk the egg yolk and suger together until very pale.",
+            "Microwave 800W for 1 minutes 30 seconds.",
+            "Use skewer or toothpick to check that they are cooked.",
+            "Transfer into 2 mugs (two thirds of a way up).",
+            "Stir in the melted chocolate gradually."
+        ],
+        "notes": [],
+        "categories": [
+            "Cake",
+            "Gluten Free"
+        ]
+    },
+    {
+        "recipe_id": 2,
+        "recipe_name": "3 Ingredient Pineapple Cake",
+        "meal_type": "Dessert",
+        "skill_level": "Easy",
+        "servings": 0,
+        "hours": 0,
+        "minutes": 50,
+        "ingredients": [
+            "2 cups (250g) self raising flour",
+            "1 cup (200g) caster sugar",
+            "432g / 15 oz. can crushed pineapple"
+        ],
+        "method": [
+            "Sift flour into a mixing bowl and combine with sugar.",
+            "Add pineapple (entire contents of the tin) and mix well.",
+            "Pour into a greased 22cm / 8-inch cake tin and bake at 180C / 375F for 40 to 45 minutes."
+        ],
+        "notes": [],
+        "categories": [
+            "Cake"
+        ]
+    },
+    {
+        "recipe_id": 4,
+        "image_file_name": "4.png",
+        "recipe_name": "Bombay Potatoes",
+        "meal_type": "Dinner",
+        "skill_level": "Easy",
+        "servings": 4,
+        "hours": 0,
+        "minutes": 30,
+        "ingredients": [
+            "4 tbsp oil",
+            "\u00c2\u00bc tsp mustard seeds",
+            "2 pinches of chilli powder",
+            "\u00c2\u00bc tsp turmeric powder",
+            "350g/12oz potatoes",
+            "boiled and quartered",
+            "salt to taste"
+        ],
+        "method": [
+            "1.\tHeat the oil in a pan on a medium heat setting.",
+            "2.\tTo check that the oil is hot enough",
+            "sprinkle in a few mustard seeds",
+            "if they pop the oil is ready. Then add the remainder of the mustard seeds.",
+            "3.\tAdd the chilli and turmeric powders to the sizzling seeds",
+            "and salt to taste.",
+            "4.\tFry this pungent mixture of oil and spices for 1 minute then add the potatoes. Fry for about 4 minutes until the potatoes are smothered in seeds and appear to have crispy edges. They will look quite yellow in colour. Cover the pan and on a low heat",
+            "cook the potatoes for a further 5 minutes.",
+            "5.\tServe immediately."
+        ],
+        "notes": [],
+        "categories": [
+            "Vegetarian"
+        ]
+    },
+    {
+        "recipe_id": 11,
+        "image_file_name": "11.png",
+        "recipe_name": "Ginger Cake with Caramel Frosting",
+        "meal_type": "Dessert",
+        "skill_level": "Easy",
+        "servings": 12,
+        "hours": 1,
+        "minutes": 30,
+        "ingredients": [
+            "200g butter",
+            "plus extra for the tin",
+            "200g dark muscovado sugar",
+            "100g black treacle",
+            "100g golden syrup",
+            "2 large egg",
+            "beaten",
+            "300ml milk",
+            "350g plain flour",
+            "2 tsp ground ginger (use 4 tsp ground ginger for more of a ginger taste)",
+            "2 tsp bicarbonate of soda",
+            "few chunks crystallised ginger",
+            "chopped",
+            "85g butter",
+            "175ml double or whipping cream",
+            "175g caster sugar (we used white - use golden for a darker icing)"
+        ],
+        "method": [
+            "1.\tHeat oven to 160C/140C fan/gas 3. Butter and line a 23cm round cake tin. Put the butter",
+            "sugar",
+            "treacle and syrup in a large pan and gently heat",
+            "stirring until the butter has melted and the mixture is smooth. Remove from the heat and cool for 10 mins.",
+            "2.\tStir in the eggs and milk",
+            "then sift in the flour",
+            "ginger and bicarbonate of soda. Mix well",
+            "then pour into the prepared tin. Bake for 50 mins-1 hr until the cake is firm to the touch and springs back when pressed in the centre. Cool in the tin for 15 mins",
+            "then turn out",
+            "peel off the paper and cool on a wire rack.",
+            "3.\tPut the frosting ingredients in a small pan over a medium heat and stir until the butter has melted and the mixture is smooth. Increase the heat and boil hard for 3-4 mins",
+            "stirring occasionally; at this stage the frosting should look like runny custard. Pour into a bowl and leave to cool for 30 mins. Beat with an electric whisk until thick and spreadable. Spread over the cooled cake and decorate with crystallised ginger."
+        ],
+        "notes": [],
+        "categories": [
+            "Baked",
+            "Cake"
+        ]
+    },
+    {
+        "recipe_id": 21,
+        "recipe_name": "Chocolate and Banana Loaf",
+        "meal_type": "Dessert",
+        "skill_level": "Easy",
+        "servings": 10,
+        "hours": 1,
+        "minutes": 10,
+        "ingredients": [
+            "125g\tunsalted butter",
+            "at room temperature",
+            "plus more for greasing tin",
+            "250g\tgolden caster sugar",
+            "2\tlarge eggs",
+            "free-range or organic",
+            "lightly beaten",
+            "1 tsp\tgood-quality vanilla extract",
+            "250g\tplain flour",
+            "2 tsp\tbaking powder",
+            "4\tripes bananas",
+            "mashed with a fork",
+            "175g\tdark chocolate chips or dark chocolate (70% cocoa solids)",
+            "broken into small pieces"
+        ],
+        "method": [
+            "1. Preheat the oven to 180\u00c2\u00b0C/gas mark 4. Grease 1 x 900g loaf tin and line with baking paper or a loaf tin liner.",
+            "2. Cream the butter and sugar in a bowl with an electric hand mixer. Add the eggs",
+            "one at a time",
+            "mixing well after each addition. Add the vanilla extract and beat again briefly. Sift the flour and baking powder into a bowl",
+            "then gradually add to the creamed butter and sugar and beat again until well combined. Beat in the mashed bananas and finally stir in the chocolate pieces.",
+            "3. Pour the mixture into the loaf tin and level it out with a spatula. Bake in the centre of the oven for 50 minutes",
+            "until a skewer inserted into the centre of the cake comes out clean. Leave the cake in the tin to cool.",
+            "4. This loaf cake is best served warm. Keep any uneaten cake in an airtight container at room temperature for about 3 days."
+        ],
+        "notes": [],
+        "categories": [
+            "Baked",
+            "Cake"
+        ]
+    },
+    {
+        "recipe_id": 13,
+        "recipe_name": "GF Christmas Pudding",
+        "meal_type": "Dessert",
+        "skill_level": "Medium",
+        "servings": 6,
+        "hours": 0,
+        "minutes": 0,
+        "ingredients": [
+            "50g (2oz) Juvela Gluten-Free Mix (or other Gluten Free Flour)",
+            "100g (4oz) breadcrumbs (made from Juvela Gluten-Free Loaf or other GF loaf)",
+            "100g (4oz) suet* (use GF suet or grate frozen or chilled butter)",
+            "1tsp ground mixed spice",
+            "1tsp ground cinnamon",
+            "150g (6oz) soft brown sugar",
+            "500g (1lb) mixed dried fruit",
+            "25g (1oz) chopped mixed nuts",
+            "1 small cooking apple (peeled",
+            "cored and grated)",
+            "1 small carrot (peeled and grated)",
+            "1 orange (grated rind and juice)",
+            "1 lemon (grated rind and juice)",
+            "2 medium eggs",
+            "125ml (1/4 pint) orange juice",
+            "3tbsp rum or brandy"
+        ],
+        "method": [
+            "You will need: 1 litre pudding basin or 2 x \u00c2\u00bd litre pudding basins.",
+            "In a large bowl",
+            "combine all ingredients except the rum/brandy",
+            "cover and leave in a cool dry place overnight. Transfer the mixture into the prepared basins",
+            "smooth the tops and cover with greaseproof paper and foil. Place in a large pan and pour in boiling water approx \u00c2\u00be up the side of each basin",
+            "cover and steam for 7-8 hours (or 4 hours for smaller puddings). Check the water level halfway through cooking and top up if necessary.",
+            "Allow to cool",
+            "then spoon over the rum or brandy and cover with fresh greaseproof paper and foil. Store in a cool dry place until required. To reheat",
+            "either steam for a further 2 hours or remove foil and microwave on FULL power for 5 minutes. Allow to stand for a further minute before serving."
+        ],
+        "notes": [
+            ""
+        ],
+        "categories": [
+            "Cake"
+        ]
+    },
+    {
+        "recipe_id": 17,
+        "recipe_name": "Naan",
+        "meal_type": "Dinner",
+        "skill_level": "Easy",
+        "servings": 5,
+        "hours": 0,
+        "minutes": 10,
+        "ingredients": [
+            "250g GF self raising flour",
+            "260g plain natural yogurt",
+            "salt and pepper"
+        ],
+        "method": [
+            "Mix the flour",
+            "natural yogurt and a little salt and pepper.",
+            "Add a touch more flour if a bit wet.",
+            "When it comes together easily split into 5 portions and roll out.",
+            "Heat a pan",
+            "medium heat (not scorching) and dry fry on both sides till they are golden and puff up. ",
+            "When they are almost done smear a little butter over and fry on both sides for just a few seconds more.",
+            "They can be frozen (prior to butter stage) and then reheated and butter added after defrosting. or freeze the dough and do them from scratch.",
+            "any flavourings could be added",
+            "poppy seeds",
+            "coriander",
+            "whatever type of naan u like can start with this."
+        ],
+        "notes": [
+            "Gluten Free"
+        ],
+        "categories": [
+            "Baked"
+        ]
+    },
+    {
+        "recipe_id": 19,
+        "image_file_name": "19.jpg",
+        "recipe_name": "Fruit and Nut Flapjacks",
+        "meal_type": "Snacks",
+        "skill_level": "Easy",
+        "servings": 16,
+        "hours": 0,
+        "minutes": 45,
+        "ingredients": [
+            "140g light muscovado sugar",
+            "3 tbsp golden syrup",
+            "140g butter",
+            "250g rolled oats",
+            "85g raisin or sultanas",
+            "85g walnut pieces (or use your favourite nuts",
+            "roughly chopped)",
+            "50g sesame or mixed seeds",
+            "25g dried cranberry",
+            "50g ready-to-eat apricot",
+            "finely chopped"
+        ],
+        "method": [
+            "Heat oven to 160C/fan 140C/gas 3. Gently heat the sugar",
+            "golden syrup and butter in a pan until the sugar and butter have both melted. Stir the oats",
+            "raisins",
+            "walnuts",
+            "seeds and cranberries into the pan until coated in the butter.",
+            "Spoon half the oaty mix into a traybake tin (23 x 23cm or thereabouts). Scatter the apricots over the top",
+            "then top with the remaining oat mix. Pack the mix down well and smooth with the back of a metal spoon. Bake for 35 mins or until dark golden. Leave to cool completely before cutting into 16 bars with a sharp knife."
+        ],
+        "notes": [],
+        "categories": [
+            "Baked"
+        ]
+    },
+    {
+        "recipe_id": 16,
+        "recipe_name": "White Chocolate Cheesecake",
+        "meal_type": "Dessert",
+        "skill_level": "Easy",
+        "servings": 10,
+        "hours": 7,
+        "minutes": 0,
+        "ingredients": [
+            "200g strawberries or raspberries, to serve",
+            "400g white chocolate, broken into pieces",
+            "300g full-fat cream cheese (we used Philadelphia)",
+            "150g unsalted butter, melted",
+            "300g digestive biscuits",
+            "300ml double cream",
+            "250g mascarpone"
+        ],
+        "method": [
+            "Begin melting the chocolate in a heatproof glass bowl over a small pan of hot water on a low heat. Stir occasionally to prevent sticking. Remove from the heat and leave to cool for 10 mins until barely warm but still liquid.",
+            "Crush the biscuits in a food processor until completely ground. Add butter and whizz again until you have the desired crumbly consistency",
+            "Line the base of a 23cm deep loose-bottomed cake tin. Add the biscuit mixture to the cake tin and pat it flat. Leave to set in the fridge for approximately 30 mins.",
+            "Meanwhile whisk the cream cheese and mascarpone together. Add double cream and keep whisking until the mixture is just holding its own shape.",
+            "Finally add the melted chocolate and whisk until just combined.",
+            "Spoon the mixture over the cooled and set biscuit base then smooth the top. Return to the fridge to cool for at least 6 hrs until the topping is set. ",
+            "Finally, decorate with fruit."
+        ],
+        "notes": [
+            "Remember to melt the butter! (And add the cream",
+            "Vince)"
+        ],
+        "categories": [
+            "Cake"
+        ]
+    },
+    {
+        "recipe_id": 3,
+        "recipe_name": "Beef with Redcurrents",
+        "meal_type": "Dinner",
+        "skill_level": "Medium",
+        "servings": 6,
+        "hours": 3,
+        "minutes": 30,
+        "ingredients": [
+            "40g (1 1/2 oz) butter",
+            "900g (2 lb) casserole beef steak",
+            "cut into 2.5cm (1 in) cubes",
+            "3 rashers rindless streaky bacon",
+            "chopped",
+            "2 large onions",
+            "chopped",
+            "110g (4 oz) button mushrooms",
+            "thickly sliced",
+            "2 red peppers",
+            "seeded and chopped",
+            "170g (6 oz) frozen redcurrants",
+            "2 1/2 tablespoons plain flour",
+            "salt and pepper",
+            "to taste",
+            "2 tablespoons soft brown sugar",
+            "1 pinch ground mace",
+            "1 pinch ground allspice",
+            "300ml (1/2 pt) Guinness\u00c2\u00ae",
+            "2 bay leaves",
+            "3 tablespoons finely chopped fresh parsley"
+        ],
+        "method": [
+            "Preheat oven to 150 C / Gas 2.",
+            "Melt butter in a large saucepan. Add the beef and sear over a high heat",
+            "until well browned. Remove the beef and add bacon",
+            "cooking until crisp. Add onions and cook over low heat until soft. Add the mushrooms and cook for a further 2 minutes.",
+            "Combine beef",
+            "onions",
+            "bacon and mushrooms to a casserole dish",
+            "adding the red peppers and currants. Sprinkle over the flour and season with salt and pepper. Add sugar",
+            "mace and allspice. Mix well and pour over the Guinness\u00c2\u00ae. Add enough water to cover the ingredients. Add in the bay leaves",
+            "cover tightly.",
+            "Bake slowly in the preheated oven for 3 hours or until meat is really tender.",
+            "Just prior to serving",
+            "remove the bay leaves",
+            "add chopped parsley and more seasoning if desired."
+        ],
+        "notes": [
+            "This dish is great served over mashed potato or with croutons for garnish."
+        ],
+        "categories": []
+    },
+    {
+        "recipe_id": 22,
+        "recipe_name": "Ultimate spaghetti carbonara recipe",
+        "meal_type": "Dinner",
+        "skill_level": "Easy",
+        "servings": 4,
+        "hours": 0,
+        "minutes": 30,
+        "ingredients": [
+            "100g pancetta",
+            "50g pecorino cheese",
+            "50g parmesan",
+            "3 large eggs",
+            "350g spaghetti",
+            "2 plump garlic cloves",
+            "peeled and left whole",
+            "50g unsalted butter",
+            "sea salt and freshly ground black pepper "
+        ],
+        "method": [
+            "Put a large saucepan of water on to boil.",
+            "Finely\u00c2\u00a0chop the 100g pancetta",
+            "having first removed any rind. Finely\u00c2\u00a0grate\u00c2\u00a050g pecorino cheese and 50g parmesan and mix them together.",
+            "Beat\u00c2\u00a0the 3 large eggs in a medium bowl and\u00c2\u00a0season with a little freshly grated black pepper. Set everything aside.",
+            "Add 1 tsp salt to the boiling water",
+            "add 350g spaghetti and when the water comes back to the boil",
+            "cook at a constant simmer",
+            "covered",
+            "for 10 minutes or until al dente (just cooked).",
+            "Squash 2 peeled plump garlic cloves\u00c2\u00a0with the blade of a knife",
+            "just to bruise it.",
+            "While the spaghetti is cooking",
+            "fry the pancetta with the garlic. Drop 50g unsalted butter into a large frying pan or wok and",
+            "as soon as the butter has melted",
+            "tip in the pancetta and garlic.",
+            "Leave to cook on a medium heat for about 5 minutes",
+            "stirring often",
+            "until the pancetta is golden and crisp. The garlic has now imparted its flavour",
+            "so take it out with a slotted spoon and discard.",
+            "Keep the heat under the pancetta on low. When the pasta is ready",
+            "lift it from the water with a pasta fork or tongs and put it in the frying pan with the pancetta. Don\u00e2\u20ac\u2122t worry if a little water drops in the pan as well (you want this to happen) and don\u00e2\u20ac\u2122t throw the pasta water away yet.",
+            "Mix most of the cheese in with the eggs",
+            "keeping a small handful back for sprinkling over later.",
+            "Take the pan of spaghetti and pancetta off the heat. Now quickly pour in the eggs and cheese. Using the tongs or a long fork",
+            "lift up the spaghetti so it mixes easily with the egg mixture",
+            "which thickens but doesn\u00e2\u20ac\u2122t scramble",
+            "and everything is coated.",
+            "Add extra pasta cooking water to keep it saucy (several tablespoons should do it). You don\u00e2\u20ac\u2122t want it wet",
+            "just moist. Season with a little salt",
+            "if needed.",
+            "Use a long-pronged fork to twist the pasta on to the serving plate or bowl. Serve immediately with a little sprinkling of the remaining cheese and a grating of black pepper. If the dish does get a little dry before serving",
+            "splash in some more hot pasta water and the glossy sauciness will be revived. "
+        ],
+        "notes": [],
+        "categories": []
+    },
+    {
+        "recipe_id": 34,
+        "recipe_name": "Pad Thai",
+        "meal_type": "Dinner",
+        "skill_level": "Easy",
+        "servings": 2,
+        "hours": 0,
+        "minutes": 15,
+        "ingredients": [
+            "2 tablespoons crunchy peanut butter",
+            "100g dried ribbon rice noodles",
+            "1 tablespoon wok oil or stir-fry oil",
+            "1/4 teaspoon dried chilli flakes",
+            "1 tablespoon light brown or caster sugar",
+            "300g pack ready-prepared stir-fry vegetables with bean sprouts",
+            "1/2 block tofu (optional)",
+            "2 tablespoons water",
+            "1 tablespoon lemon or lime juice",
+            "40g salted peanuts",
+            "roughly chopped",
+            "2 tablespoons soy sauce"
+        ],
+        "method": [
+            "Mix together the soy sauce",
+            "peanut butter",
+            "lemon/lime juice",
+            "chilli flakes",
+            "sugar and water. Drain the noodles and add to the pan with the sauce and peanuts. Stir well to combine and serve hot.",
+            "Heat the oil in a frying pan or wok",
+            "add the vegetables and cook for about 4 minutes",
+            "stirring frequently",
+            "until softened",
+            "Cook the noodles in a saucepan of boiling water for 3-4 minutes or until tender"
+        ],
+        "notes": [
+            "Works well with tofu fried separately with soy sauce and Chinese 5 spice (even better if its been marinated beforehand!)"
+        ],
+        "categories": [
+            "Noodles",
+            "Vegetarian",
+            "Gluten Free",
+            "One pot"
+        ]
+    },
+    {
+        "recipe_id": 32,
+        "recipe_name": "Apple crumble ",
+        "meal_type": "Dessert",
+        "skill_level": "Easy",
+        "servings": 4,
+        "hours": 0,
+        "minutes": 55,
+        "ingredients": [
+            "110g golden caster sugar",
+            "575g bramley apple",
+            "peeled cored and sliced to 1cm thick",
+            "2 tbsp golden caster sugar",
+            "175g plain flour",
+            "110g cold butter"
+        ],
+        "method": [
+            "Put 175g plain flour and 110g golden caster sugar in a\\xa0bowl\\xa0with a good pinch of salt.",
+            "Gently press the surface with the back of the fork so the crumble holds together and goes crisp",
+            "then lightly drag the fork over the top for a decorative finish.",
+            "Pour the crumb mix over the apples to form a pile in the centre",
+            "then use a fork to even out.",
+            "Slice in 110g cold butter and rub it in with your fingertips until the mixture looks like moist breadcrumbs. Shake the bowl and any big bits will come to the surface \u00e2\u20ac\u201c rub them in. Alternatively",
+            "pulse in a\\xa0processor\\xa0until sandy (don\u00e2\u20ac\u2122t over-process).",
+            "Sprinkle 1 tbsp rolled oats and 1 tbsp demerara sugar over evenly",
+            "if you wish.",
+            "Set on a\\xa0baking tray\\xa0and put in the preheated oven for 35-40 minutes",
+            "until the top is golden and the apples feel very soft when you insert a small",
+            "sharp knife. Leave to cool for 10 minutes before serving.",
+            "Heat the oven to 190C/170 fan/gas 5.",
+            "Toss 575g peeled",
+            "cored and sliced Bramley apples with 2 tbsp golden caster sugar and put in a 23cm round baking dish at least 5cm deep",
+            "or a 20cm square dish. Flatten down with your hand to prevent too much crumble falling through."
+        ],
+        "notes": [
+            "You cant beat a traditional apple filling topped with crispy",
+            "buttery crumble - classic comfort food at its best"
+        ],
+        "categories": []
+    },
+    {
+        "recipe_id": 23,
+        "recipe_name": "Slow-cooker chicken korma",
+        "meal_type": "Dinner",
+        "skill_level": "Easy",
+        "servings": 4,
+        "hours": 6,
+        "minutes": 35,
+        "ingredients": [
+            "2 garlic cloves",
+            "thumb-sized piece ginger",
+            "peeled",
+            "2 large onions",
+            "finely chopped",
+            "2 tbsp vegetable oil",
+            "6 skinless chicken breasts",
+            "cut into large chunks",
+            "2 tbsp tomato pur\u00c3\u00a9e",
+            "1 tsp ground cumin",
+            "1 tsp paprika",
+            "1 tsp turmeric",
+            "1 tsp ground coriander",
+            "\u00c2\u00bc-\u00c2\u00bd tsp chilli powder",
+            "2 tsp sugar",
+            "300ml chicken stock",
+            "150ml double cream",
+            "6 tbsp ground almonds",
+            "toasted flaked almonds ",
+            "coriander",
+            "basmati rice and naan breads",
+            "to serve (optional) "
+        ],
+        "method": [
+            "Heat the slow cooker to low. Put the garlic",
+            "ginger and onions in a small blender with a splash of water and whizz to a paste. Heat the oil in a frying pan over a medium-high heat and sear the chicken all over. Remove from the pan and set aside",
+            "then add the onion paste. Fry over a medium heat for 10 mins until lightly golden.",
+            "Stir in the tomato pur\u00c3\u00a9e",
+            "spices",
+            "1 tsp salt and the sugar",
+            "fry for 1 min until aromatic",
+            "then put the chicken back into the pan (with any resting juices) and add the stock. Stir and bring to a simmer",
+            "then spoon into the slow cooker. Cook on low for 5-6 hrs until the chicken is tender and cooked through.",
+            "Stir through the cream and the ground almonds and bubble for 10 mins to reduce",
+            "if needed. Scatter with flaked almonds and coriander",
+            "if using",
+            "then serve with rice and naans",
+            "if you like. "
+        ],
+        "notes": [],
+        "categories": []
+    },
+    {
+        "recipe_id": 24,
+        "recipe_name": "Bhaji burger",
+        "meal_type": "Dinner",
+        "skill_level": "Medium",
+        "servings": 3,
+        "hours": 0,
+        "minutes": 50,
+        "ingredients": [
+            "400g lamb mince",
+            "2 tbsp tandoori paste",
+            "1 tsp cumin seeds",
+            "\u00c2\u00bd cucumber",
+            "150g pot plain yogurt",
+            "\u00c2\u00bd small pack mint ",
+            "leaves chopped",
+            "100g plain flour",
+            "1 tbsp garam masala",
+            "1 tsp bicarbonate of soda",
+            "1 onion ",
+            "halved and finely sliced",
+            "3 tbsp sunflower oil",
+            "3 burger buns  (we used brioche buns)",
+            "toasted",
+            "a few lettuce leaves",
+            "red onion ",
+            "thinly sliced",
+            "mango chutney "
+        ],
+        "method": [
+            "First",
+            "make the burgers. Tip all the ingredients into a bowl with a good pinch of salt and squeeze together with your fingers. Shape into three patties and chill in the fridge.",
+            "For the raita",
+            "grate the cucumber and squeeze out as much liquid as you can. Put in a bowl with the yogurt",
+            "mint and some salt. Mix and chill.",
+            "For the bhajis",
+            "tip the flour",
+            "spices and bicarb into a bowl with a pinch of salt. Slowly add 200ml cold water to make a thick batter (you might not need all of it)",
+            "then mix in the onion.",
+            "Heat the oil in a large frying pan. Add the batter in batches so you have three burger-sized bhajis. Sizzle for 3 mins until crispy on one side",
+            "then flip and cook on the other side until cooked through. Keep warm.",
+            "Barbecue",
+            "griddle or pan-fry the burgers to your liking. Put lettuce and a burger on each bun and top with some raita",
+            "a bhaji and red onion. Serve the mango chutney on the side. "
+        ],
+        "notes": [
+            "We've combined two of our favourite recipes to make a bhaji in a bun. Serve with mango chutney and a fluffy brioche bun "
+        ],
+        "categories": []
+    },
+    {
+        "recipe_id": 26,
+        "recipe_name": "Gnocchi fish pie",
+        "meal_type": "Dinner",
+        "skill_level": "Easy",
+        "servings": 4,
+        "hours": 0,
+        "minutes": 30,
+        "ingredients": [
+            "4 spring onions ",
+            "sliced",
+            "200g frozen  peas",
+            "1 tbsp chopped chives ",
+            "or 1/2 tbsp finely chopped tarragon",
+            "1 tsp olive oil",
+            "250g long-stem  broccoli or green beans",
+            "steamed",
+            "to serve",
+            "200ml semi-skimmed milk",
+            "350g gnocchi",
+            "1 tsp capers ",
+            "drained",
+            "400g fish pie mix ",
+            "or a mix of salmon",
+            "smoked haddock and prawns",
+            "150ml reduced-fat  cr\u00c3\u00a8me fra\u00c3\u00aeche",
+            "2 tbsp cornflour"
+        ],
+        "method": [
+            "Combine a splash of the milk with the cornflour until you have a smooth paste",
+            "then add to the rest of the milk. Pour the mixture into the frying pan",
+            "then add the fish pie mix and spring onions",
+            "and bring to a gentle simmer. Cook",
+            "stirring frequently",
+            "until the sauce has thickened and the fish is just cooked",
+            "about 4-5 mins. Season well. Stir in the herbs",
+            "cr\u00c3\u00a8me fra\u00c3\u00aeche",
+            "capers and peas",
+            "and\\\\\\\\xa0bring back to a simmer.",
+            "Put the gnocchi in a deep ovenproof frying pan and cover with boiling water and a pinch of salt. Simmer for 2-3 mins",
+            "then drain and leave to steam-dry.",
+            "Heat the grill to medium-high. Arrange the gnocchi over the filling",
+            "then brush with the oil and season with some black pepper. Grill for 5-10 mins",
+            "or until the gnocchi has puffed up and is starting to turn golden on top. Serve with the broccoli or green beans on the side."
+        ],
+        "notes": [
+            "Try this spin on a fish pie and top with gnocchi instead of regular mashed potato. It takes just 30 minutes to make so is perfect for a balanced family meal"
+        ],
+        "categories": []
+    },
+    {
+        "recipe_id": 6,
+        "image_file_name": "6.png",
+        "recipe_name": "Date and Cashew Bars",
+        "meal_type": "Snacks",
+        "skill_level": "Easy",
+        "servings": 14,
+        "hours": 0,
+        "minutes": 30,
+        "ingredients": [
+            "300 g soft dates",
+            "100 g nuts (you can use hazel",
+            "walnut or almond \u00e2\u20ac\u201c or a mix)",
+            "100 g cashew nuts",
+            "2 Tbsp coconut oil",
+            "melted",
+            "2 Tbsp raw cocoa powder",
+            "1/2 tsp ground vanilla"
+        ],
+        "method": [
+            "Preheat oven to  Preheat oven to  300 F \u00c2\u00b0/150 C \u00c2\u00b0 (fan).",
+            "Roast the 100 g of mixed nuts for 15-20 min",
+            "until slightly golden. If you are using hazelnuts",
+            "remove the burned skin with a kitchen cloth.",
+            "Blend nut in a food processor or blender until semi ground. Then you roughly blend cashew nuts",
+            "you want some larger chunks of these. Remove the stones from the dates and blend theses with coconut oil",
+            "vanilla and cocoa.",
+            "In a large bowl mix all of the nuts with the date mixture until you have a sticky dough.",
+            "In a lined baking tray spread out the dough and divide evenly into a square. Place in the fridge or freezer until it is firm and set. Use a sharp knife to cut out your bars in the size you prefer."
+        ],
+        "notes": [
+            "Store the bars in an airtight container  in the fridge for up to 14 days."
+        ],
+        "categories": []
+    },
+    {
+        "recipe_id": 14,
+        "image_file_name": "14.jpeg",
+        "recipe_name": "Sausage Risotto",
+        "meal_type": "Dinner",
+        "skill_level": "Medium",
+        "servings": 4,
+        "hours": 0,
+        "minutes": 40,
+        "ingredients": [
+            "450 g best quality pork sausages",
+            "about 6 in total",
+            "50 g unsalted butter",
+            "1 small onion",
+            "finely chopped",
+            "2 cloves garlic",
+            "crushed",
+            "350 g arborio risotto rice",
+            "1.2 litres chicken stock",
+            "150 g frozen peas or petit pois",
+            "6 tbsp parmesan",
+            "freshly grated",
+            "plus extra to garnish",
+            "2 tbsp flat leaf parsley",
+            "roughly chopped",
+            "black pepper"
+        ],
+        "method": [
+            "Pre heat the grill to medium. Arrange the sausages on a grill rack and grill for 10-15 minutes",
+            "depending on the thickness",
+            "turning every 2-3 minutes until cooked through and golden brown. Transfer to a plate and leave until cool enough to handle",
+            "then cut into chunky slices and set aside.",
+            "Melt the butter in a large",
+            "shallow pan. Add the onion and garlic and cook gently for about 4-5 minutes until softened but not coloured",
+            "stirring occasionally. Increase the heat",
+            "stir in the rice and cook gently for 1 minute",
+            "stirring continuously",
+            "until the rice is opaque.",
+            "Meanwhile",
+            "pour the stock into a separate pan and bring to a gentle simmer. Add a ladleful of stock to the rice mixture and allow to reduce",
+            "stirring until it is completely absorbed. Continue to add the simmering stock a ladleful at a time",
+            "stirring frequently. Allow each stock addition to be almost completely absorbed before adding the next ladleful.",
+            "After about 20 minutes",
+            "when the rice is nearly cooked",
+            "tip the peas into the remaining stock and simmer for 2 minutes before adding to the risotto. When the risotto is ready it should be just tender but still have a little bite. Season to taste",
+            "then stir in the Parmesan and parsley until combined",
+            "then fold in the sausages. Season to taste and divide among warmed serving bowls or plates. Garnish with some Parmesan and serve immediately."
+        ],
+        "notes": [
+            ""
+        ],
+        "categories": []
+    },
+    {
+        "recipe_id": 12,
+        "image_file_name": "12.png",
+        "recipe_name": "Gluten Free Christmas Cake",
+        "meal_type": "Dessert",
+        "skill_level": "Medium",
+        "servings": 0,
+        "hours": 3,
+        "minutes": 0,
+        "ingredients": [
+            "100g/3\u00c2\u00bdoz soya margarine (or whatever kind of butter you like)",
+            "1 large ripe banana",
+            "2 large lemons",
+            "finely grated rind and juice only",
+            "100g/3\u00c2\u00bdoz soft prunes",
+            "stoned and halved",
+            "75g/3oz raisins",
+            "75g/3oz sultanas",
+            "75g/3oz currants",
+            "150g/5oz soft dried apricots",
+            "chopped in fairly large pieces",
+            "50g/2oz mixed peel",
+            "75g/2\u00c2\u00bdoz walnuts",
+            "halved and 25g/\u00c2\u00beoz hazelnuts",
+            "chopped OR 75g/3oz large pumpkin seeds and 25g/\u00c2\u00beoz sunflower seeds",
+            "2 eggs (or 2 level tsp gluten-free baking powder to make an egg-free cake)",
+            "75g/2\u00c2\u00bdoz coarse polenta and 75g/2\u00c2\u00bdoz rice flour and 1 level tsp xanthan gum OR 150g gluten-free flour that already includes xanthan gum",
+            "2 heaped tsp ground nutmeg",
+            "1 heaped tsp ground cinnamon",
+            "1 heaped tsp ground ginger",
+            "\u00c2\u00bd teaspoon ground cloves",
+            "2 tbsp brandy (optional)"
+        ],
+        "method": [
+            "1.\tPreheat the oven to 160C/300F/Gas 3.",
+            "2.\tIn a food processor beat the butter/margarine with the banana and the lemon juice and rind. Pour into a bowl.",
+            "3.\tMix in the dried fruit and nuts or seeds.",
+            "4.\tBeat the eggs if you are using them.",
+            "5.\tSieve which ever flours you are using with the baking powder (if you are substituting it for the eggs) and the spices.",
+            "6.\tFold the eggs (if you are using them) into the fruit mixture alternately with the flours. Add some brandy if you like.",
+            "7.\tLine a 20cm/8in cake tin with greased greaseproof paper. Spoon the mixture in and level off the top.",
+            "8.\tBake for about two hours or until a skewer inserted in the middle comes out clean.",
+            "9.\tRemove from the tin and cool on a rack.",
+            "10.\tEat as it is or store to be iced for Christmas. You can also decorate this cake with whole nuts such as almonds."
+        ],
+        "notes": [],
+        "categories": [
+            "Baked",
+            "Cake"
+        ]
+    },
+    {
+        "recipe_id": 25,
+        "recipe_name": "Chicken pasta bake",
+        "meal_type": "Dinner",
+        "skill_level": "Easy",
+        "servings": 6,
+        "hours": 1,
+        "minutes": 15,
+        "ingredients": [
+            "4 tbsp olive oil",
+            "1 onion ",
+            "finely chopped",
+            "2 garlic cloves ",
+            "crushed ",
+            "\u00c2\u00bc tsp chilli flakes",
+            "2 x 400g cans chopped tomatoes",
+            "1 tsp caster sugar",
+            "6 tbsp mascarpone",
+            "4 skinless chicken breasts",
+            "sliced into strips ",
+            "300g penne",
+            "70g mature cheddar ",
+            "grated ",
+            "50g grated mozzarella",
+            "\u00c2\u00bd small bunch of parsley ",
+            "finely chopped "
+        ],
+        "method": [
+            "Heat 2 tbsp of the oil in a pan over a medium heat and fry the onion gently for 10-12 mins. Add the garlic and chilli flakes and cook for 1 min. Tip in the tomatoes and sugar and season to taste. Simmer uncovered for 20 mins or until thickened",
+            "then stir through the mascarpone.\u00c2\u00a0",
+            "Heat 1 tbsp of oil in a non-stick frying pan. Season the chicken and fry for 5-7 mins or until the chicken is cooked through.\u00c2\u00a0",
+            "Heat the oven to 220C/200C fan/gas 7. Cook the penne following pack\u00c2\u00a0instructions. Drain and toss with the remaining oil. Tip the pasta into a medium sized ovenproof dish. Stir in\u00c2\u00a0the chicken and pour over the sauce. Top with the cheddar",
+            "mozzarella\u00c2\u00a0and parsley. Bake for 20 mins or until golden brown and bubbling.\u00c2\u00a0 "
+        ],
+        "notes": [
+            "Enjoy this gooey cheese and chicken pasta bake\u00c2\u00a0for the ultimate weekday family dinner. Serve straight from\u00c2\u00a0the dish with a dressed green salad\u00c2\u00a0 "
+        ],
+        "categories": [
+            "One pot",
+            "Pasta"
+        ]
+    },
+    {
+        "recipe_id": 27,
+        "recipe_name": "Spiced halloumi & pineapple burger with zingy slaw",
+        "meal_type": "Dinner",
+        "skill_level": "Easy",
+        "servings": 2,
+        "hours": 0,
+        "minutes": 25,
+        "ingredients": [
+            "\u00c2\u00bd red cabbage",
+            "grated",
+            "2 carrots",
+            "grated",
+            "100g radishes",
+            "sliced",
+            "1 small pack coriander",
+            "chopped",
+            "2 limes",
+            "juiced",
+            "1 tbsp cold-pressed rapeseed oil",
+            "big pinch of chilli flakes",
+            "1 tbsp chipotle paste",
+            "60g halloumi",
+            "cut into 4 slices",
+            "2 small slices of fresh pineapple",
+            "1 Little Gem lettuce",
+            "divided into 4 lettuce cups",
+            "or 2 small seeded burger buns",
+            "cut in half",
+            "to serve (optional) "
+        ],
+        "method": [
+            "Heat the barbecue. Put the cabbage",
+            "carrot",
+            "radish and coriander in a bowl. Pour over the lime juice",
+            "add \u00c2\u00bd\u00c2\u00a0tbsp oil and the chilli flakes",
+            "then season with salt and pepper. Give everything a good mix with your hands. This can be done a few hours before and kept in the fridge.",
+            "Mix the remaining oil with the chipotle paste then coat the halloumi slices in the mixture. Put the halloumi slices on a sheet of foil and put on the barbecue with the pineapple (or use a searing hot griddle pan if cooking inside). Cook for 2 mins on each side until the cheese is golden",
+            "and the pineapple is beginning to caramelise. Brush the buns with the remaining chipotle oil",
+            "then put your burger buns",
+            "if using",
+            "cut-side down",
+            "on the barbecue for the last 30 seconds of cooking to toast.",
+            "Assemble your burgers with the lettuce or buns. Start with a handful of the slaw",
+            "then add halloumi and pineapple. Serve with the remaining slaw. "
+        ],
+        "notes": [
+            "Pack four of your 5-a-day into these tasty veggie burgers with barbecued halloumi. Wrap in lettuce cups instead of buns for a healthy",
+            "low-calorie option "
+        ],
+        "categories": []
+    },
+    {
+        "recipe_id": 28,
+        "recipe_name": "Doner Kebab",
+        "meal_type": "Dinner",
+        "skill_level": "Medium",
+        "servings": 6,
+        "hours": 1,
+        "minutes": 10,
+        "ingredients": [
+            "500g lamb mince",
+            "1 small onion",
+            "coarsely grated",
+            "4 garlic cloves",
+            "minced or finely grated",
+            "100g fresh breadcrumbs",
+            "2 tsp ground cumin",
+            "2 tsp ground coriander",
+            "1 tsp dried oregano",
+            "\u00c2\u00bc tsp smoked paprika",
+            "sunflower oil for oiling",
+            "pitta breads",
+            "shredded red or white cabbage",
+            "sliced onion",
+            "chopped tomatoes",
+            "pickled chillies",
+            "chilli sauce (see recipe below)",
+            "garlic sauce (see recipe below)",
+            "tahini "
+        ],
+        "method": [
+            "Heat the oven to 200C/180C fan/gas 6. Tip all the ingredients except the oil into a food processor with a large pinch of salt and lots of ground pepper. Pulse until everything is combined and chopped together. You can also just squish everything together in a bowl\u00c2\u00a0but this will give you a looser finish.",
+            "Oil a large sheet of foil",
+            "tip the meat mix in the middle and mould to a very thick sausage",
+            "roughly the shape of an aubergine. Roll up the foil tightly",
+            "twisting up the ends to create a Christmas cracker shape.",
+            "Lay on a shallow roasting tin and roast in the oven for 35-40 mins",
+            "turning occasionally",
+            "or until a digital cooking thermometer reads 75C when pierced in the middle. Leave the kebab to cool a little",
+            "then unwrap the foil.\u00c2\u00a0Place back on the tray and brown under the grill or with a blowtorch.",
+            "Place on a board and carve into thin slices. For full doner mode",
+            "you can hold the kebab up with a roasting fork or metal skewer and carve. Serve with warm pitta bread and any of the other accompaniments",
+            "including our\u00c2\u00a0chilli sauce and\u00c2\u00a0garlic yogurt sauce. "
+        ],
+        "notes": [
+            "Make your own version of this takeaway favourite",
+            "complete with chilli and garlic sauces. Serve your homemade doner kebab with pitta bread and shredded cabbage "
+        ],
+        "categories": [
+            "Meat",
+            "Spicy"
+        ]
+    },
+    {
+        "recipe_id": 29,
+        "image_file_name": "29.JPG",
+        "recipe_name": "Easy millionaire's shortbread",
+        "meal_type": "Dessert",
+        "skill_level": "Easy",
+        "servings": 20,
+        "hours": 1,
+        "minutes": 0,
+        "ingredients": [
+            "250g plain flour",
+            "75g caster sugar",
+            "175g butter",
+            "softened",
+            "100g butter or margarine",
+            "100g light muscovado sugar",
+            "397g can condensed milk",
+            "200g plain or milk chocolate",
+            "broken into pieces "
+        ],
+        "method": [
+            "Heat the oven to 180C/160C fan/gas 4. Lightly grease and line a 20-22cm square or rectangular baking tin with a lip of at least 3cm.",
+            "To make the shortbread",
+            "mix 250g plain\u00c2\u00a0flour and 75g caster sugar in a bowl. Rub in 175g softened butter until the mixture resembles fine breadcrumbs.",
+            "Knead the mixture together until it forms a dough",
+            "then press into the base of the prepared tin.",
+            "Prick the shortbread lightly with a fork and bake for\u00c2\u00a020 minutes or\u00c2\u00a0until firm to the touch and very lightly browned. Leave to cool in the tin.",
+            "To make the caramel",
+            "place 100g\u00c2\u00a0butter or margarine",
+            "100g light muscovado sugar and the can of condensed milk in a pan and heat gently until the sugar has dissolved. Continually stir with a spatula to make sure no sugar sticks to the bottom of the pan. (This can leave brown specks in the caramel but won\u00e2\u20ac\u2122t affect the flavour.)",
+            "Turn up the heat to medium high",
+            "stirring all the time",
+            "and bring to the boil",
+            "then lower the heat back to low and stirring continuously",
+            "for about 5-10 minutes or until the mixture has thickened slightly. Pour over the shortbread and leave to cool.",
+            "For the topping",
+            "melt 200g plain or milk\u00c2\u00a0chocolate slowly in a bowl over a pan of hot water. Pour over the cold caramel and leave to set. Cut into squares or bars with a hot knife. "
+        ],
+        "notes": [
+            "Combine the crunch of a shortbread base with a gooey caramel middle and chocolate topping",
+            "and you have millionaire's shortbread \u00e2\u20ac\u201c\u00c2\u00a0the ultimate sweet treat "
+        ],
+        "categories": []
+    },
+    {
+        "recipe_id": 31,
+        "recipe_name": "Quinoa salad with grilled halloumi",
+        "meal_type": "Dinner",
+        "skill_level": "Easy",
+        "servings": 3,
+        "hours": 0,
+        "minutes": 40,
+        "ingredients": [
+            "3 tbsp extra-virgin olive oil",
+            "1 small red onion ",
+            "sliced",
+            "1 large roasted pepper from a jar",
+            "thickly sliced",
+            "or a handful of ready-roasted sliced peppers",
+            "200g quinoa",
+            "500ml vegetable stock",
+            "small bunch flat-leaf parsley ",
+            "roughly chopped",
+            "zest and juice 1 lemon",
+            "large pinch sugar",
+            "250g pack halloumi cheese ",
+            "cut into 6 sliced "
+        ],
+        "method": [
+            "Heat 1 tbsp of the oil in a medium saucepan. Cook the onion and pepper for a few mins",
+            "then add the quinoa and cook for a further 3 mins. Add the stock",
+            "cover and turn the heat down to a simmer. Cook for 15 mins or until soft",
+            "then stir through half the parsley. Heat the grill.",
+            "Meanwhile",
+            "mix the lemon zest and juice with the remaining parsley and oil",
+            "and a large pinch of sugar and salt. Grill the halloumi until both sides are golden and crisp. Serve the salad with the grilled halloumi and the dressing poured over everything. "
+        ],
+        "notes": [
+            "Try this easy veggie\u00c2\u00a0salad for a great source of iron and enjoy\u00c2\u00a0as a light lunch or supper. It\u00c2\u00a0uses gluten-free\u00c2\u00a0quinoa for an extra dose of protein "
+        ],
+        "categories": [
+            "Gluten Free",
+            "One pot",
+            "Vegetarian"
+        ]
+    },
+    {
+        "recipe_id": 33,
+        "recipe_name": "Chicken and mushroom pie with shortcrust pastry",
+        "meal_type": "Dinner",
+        "skill_level": "Medium",
+        "servings": 4,
+        "hours": 1,
+        "minutes": 30,
+        "ingredients": [
+            "2 tbsp olive oil",
+            "3 chicken breasts",
+            "skin and bone removed",
+            "150g/5\u00c2\u00bdoz button mushrooms",
+            "quartered",
+            "1 small onion",
+            "chopped",
+            "1 garlic clove",
+            "finely chopped",
+            "50g/2oz butter",
+            "2 tbsp plain flour",
+            "plus extra for dusting",
+            "300ml/\u00c2\u00bd pint milk",
+            "200ml/7fl oz chicken stock",
+            "freshly grated nutmeg",
+            "to taste",
+            "freshly ground white pepper",
+            "pinch salt",
+            "small handful fresh parsley",
+            "chopped",
+            "500g/1lb 2oz ready-made shortcrust pastry",
+            "1 free-range egg",
+            "beaten"
+        ],
+        "method": [
+            "Preheat the oven to 200C/400F/Gas 6.",
+            "Heat the oil in a frying pan",
+            "add the chicken and fry until the chicken begins to turn white.",
+            "Add the mushrooms and continue to fry until the chicken is golden-brown.",
+            "Remove the chicken and mushrooms from the pan and set aside. Add the onion and garlic to the same pan and fry for 2-3 minutes or until softened. Remove from the heat and set aside with the chicken and mushrooms.",
+            "Melt the butter in a saucepan",
+            "stir in the flour and cook for about three minutes",
+            "stirring constantly until it has formed a thick smooth paste (this is called a roux).",
+            "Mix the milk and stock together in a jug",
+            "then add the nutmeg",
+            "white pepper and salt",
+            "to taste. Pour the liquid slowly into the flour mixture",
+            "whisking all the time until smooth. Simmer over a gentle heat",
+            "stirring constantly",
+            "for about five minutes or until the sauce has thickened.",
+            "Stir in the chopped parsley and pour the sauce over the chicken and mushroom mixture. Mix well",
+            "then spoon into a pie dish and leave until completely cool.",
+            "Roll out the pastry on a lightly floured surface until it is the thickness of a pound coin. Brush the edges of the pie dish with beaten egg",
+            "lay the pastry on top",
+            "press down the edges and trim. Brush the top of the pie with beaten egg and cut some leaf shapes out of the left-over pastry to decorate the top of the pie.",
+            "Make two or three slits in the top of the pie to allow steam to escape and then bake in the oven for 20-25 minutes or until golden-brown on top."
+        ],
+        "notes": [
+            "Can replace chicken with quorn. Can replace pastry with GF pastry."
+        ],
+        "categories": [
+            "Meat",
+            "Pie"
+        ]
+    },
+    {
+        "recipe_id": 30,
+        "recipe_name": "The Best Chocolate Brownies",
+        "meal_type": "Dessert",
+        "skill_level": "Easy",
+        "servings": 16,
+        "hours": 1,
+        "minutes": 0,
+        "ingredients": [
+            "Pinch of salt",
+            "2 tsp vanilla extract",
+            "8oz/225g granulated sugar",
+            "3 large eggs, beaten",
+            "7oz/200g dark chocolate",
+            "5oz/140g unsalted butter",
+            "3 oz/85g gluten free plain flour"
+        ],
+        "method": [
+            "Preheat oven to 180 degrees.",
+            "Line an 8 inch square tin.",
+            "Melt chocolate and butter over a pan of hot water and allow to cool slightly.",
+            "Add sugar, salt and vanilla extract into a bowl and mix well.",
+            "Add the melted chocolate",
+            "Mix in the eggs.",
+            "Add the flour and mix well.",
+            "Bake for 35-40 mins or until knife comes out with moist crumbs (but not wet).",
+            "Cool in the tin and then cut into squares."
+        ],
+        "notes": [
+            "Chunks of dark chocolate (100g) works well as an addition.",
+            "Rather than doing 200g of dark",
+            "do a mix of dark and milk."
+        ],
+        "categories": [
+            "Gluten Free"
+        ]
+    },
+    {
+        "recipe_id": 35,
+        "recipe_name": "Chickpea curry",
+        "meal_type": "Dinner",
+        "skill_level": "Easy",
+        "servings": 4,
+        "hours": 0,
+        "minutes": 40,
+        "ingredients": [
+            "cooked rice and/or dahl",
+            "1 onion",
+            "diced",
+            "1 tbsp ground coriander",
+            "For the paste",
+            "2 tbsp ground cumin",
+            "\u00c2\u00bd small pack coriander",
+            "chopped",
+            "plus extra to garnish",
+            "For the curry",
+            "2 tbsp oil",
+            "100g spinach",
+            "thumb-sized piece ginger",
+            "peeled",
+            "400g can chopped tomatoes",
+            "1 tbsp garam masala",
+            "9 garlic cloves (approx 1 small bulb of garlic)",
+            "2 tbsp tomato pur\u00c3\u00a9e",
+            "100g creamed coconut",
+            "2 x 400g cans chickpeas",
+            "drained",
+            "To serve",
+            "1 tsp fresh or dried chilli",
+            "to taste"
+        ],
+        "method": [
+            "In a food processor",
+            "combine 9 garlic cloves",
+            "a thumb-sized piece of peeled ginger and the remaining oil",
+            "then add 1 tbsp ground coriander",
+            "2 tbsp ground cumin",
+            "1 tbsp garam masala",
+            "2 tbsp tomato pur\u00c3\u00a9e",
+            "\u00c2\u00bd tsp salt and the fried onion. Blend to a smooth paste \u00e2\u20ac\u201c add a drop of water or more oil",
+            "if needed.",
+            "Add 100g creamed coconut with a little water",
+            "cook for 5 mins more",
+            "then add \u00c2\u00bd small pack chopped coriander and 100g spinach",
+            "and cook until wilted.",
+            "To make the paste",
+            "heat a little of the 2 tbsp oil in a frying pan",
+            "add 1 diced onion and 1 tsp fresh or dried chilli",
+            "and cook until softened",
+            "about 8 mins.",
+            "Garnish with extra coriander and serve with rice or dhal (or both).",
+            "Cook the paste in a medium saucepan for 2 mins over a medium-high heat",
+            "stirring occasionally so it doesn\u00e2\u20ac\u2122t stick.",
+            "Tip in two 400g cans drained chickpeas and a 400g can chopped tomatoes",
+            "and simmer for 5 mins until reduced down."
+        ],
+        "notes": [
+            "This easy chickpea curry",
+            "created by reader Jon Gregg",
+            "is a vegan recipe thats three of your five-a-day. It works well as a main course or a simple side dish"
+        ],
+        "categories": [
+            "Gluten Free",
+            "One pot",
+            "Vegetarian",
+            "Curry"
+        ]
+    },
+    {
+        "recipe_id": 36,
+        "recipe_name": "Easy Chicken Biryani",
+        "meal_type": "Dinner",
+        "skill_level": "Easy",
+        "servings": 4,
+        "hours": 0,
+        "minutes": 30,
+        "ingredients": [
+            "2 tbsp sunflower oil",
+            "1 large onion, chopped",
+            "4 chicken breasts",
+            "1 lemon, juice only",
+            "2 tsp garam masala",
+            "1 tsp chilli powder",
+            "2g (1 tsp) salt",
+            "300g (10oz) basmati rice",
+            "1 garlic clove, crushed",
+            "2.5cm piece fresh ginger, grated",
+            "850ml (1 1/2pints) hot chicken stock",
+            "3 tbsp chopped fresh coriander"
+        ],
+        "method": [
+            "Heat the oil in a large saucepan over a low heat. Add the onion, cover and cook for 10 minutes until softened.",
+            "Cut the chicken into bite-size pieces, tip into a bowl, and add the lemon juice, garam masala, chilli powder and salt. Stir well to coat.",
+            "Rinse the rice several times in cold water, until the water runs clear. Add the garlic and ginger to the onion and cook for 2 minutes, then add the chicken pieces and cook for a further 2 minutes, stirring constantly.",
+            "Add the rice and hot stock to the pan, stir well then bring to the boil. Cover with a tight-fitting lid, reduce the heat slightly and cook for 5 minutes. Turn off the heat and leave the pan for 10 minutes to allow the rice to finish cooking in the steam. Do not remove the lid. Stir through the coriander and serve immediately."
+        ],
+        "notes": [
+            "Swap chicken with Quorn pieces/fillets to make it vegetarian"
+        ],
+        "categories": [
+            "Curry",
+            "One pot",
+            "Rice"
+        ]
+    },
+    {
+        "recipe_id": 37,
+        "recipe_name": "10-Minute Couscous Salad",
+        "meal_type": "Lunch",
+        "skill_level": "Easy",
+        "servings": 2,
+        "hours": 0,
+        "minutes": 10,
+        "ingredients": [
+            "100g couscous",
+            "200ml hot low salt vegetable stock (from a cube is fine)",
+            "2 spring onions",
+            "1 red pepper",
+            "\u00bd cucumber",
+            "50g feta cheese, cubed",
+            "2tbsp pesto",
+            "2tbsp pine nuts"
+        ],
+        "method": [
+            "Tip the couscous into a large bowl and pour over the stock. Cover, then leave for 10 mins until fluffy and all the stock has been absorbed. Meanwhile, slice the onions and pepper, and dice the cucumber. Add these to the couscous, fork through the pesto, crumble in the feta, then sprinkle over pine nuts to serve."
+        ],
+        "notes": [
+            ""
+        ],
+        "categories": []
+    },
+    {
+        "recipe_id": 38,
+        "image_file_name": "38.png",
+        "recipe_name": "Chickpea Salad",
+        "meal_type": "Dinner",
+        "skill_level": "Easy",
+        "servings": 6,
+        "hours": 0,
+        "minutes": 10,
+        "ingredients": [
+            "400g can chickpeas, drained and rinsed",
+            "small pack coriander, roughly chopped",
+            "small pack parsley, roughly chopped",
+            "1 red onion, thinly sliced",
+            "2 large tomatoes, chopped",
+            "2 tbsp olive oil",
+            "2 tbsp harissa",
+            "1 lemon, juiced"
+        ],
+        "method": [
+            "Mix all the ingredients together, mashing a little so the chickpeas are a bit rough round the edges \u2013 this helps absorb the dressing. (Can be made a day ahead and kept in the fridge.) Try it with slow-cooked Greek lamb and tzatziki sauce."
+        ],
+        "notes": [
+            ""
+        ],
+        "categories": [
+            "Vegetarian"
+        ]
+    },
+    {
+        "recipe_id": 39,
+        "recipe_name": "Double Bean and Roasted Pepper Chilli",
+        "meal_type": "Dinner",
+        "skill_level": "Easy",
+        "servings": 8,
+        "hours": 1,
+        "minutes": 45,
+        "ingredients": [
+            "2 onions, chopped",
+            "2 celery sticks, finely chopped",
+            "2 yellow or orange peppers, finely chopped",
+            "2 tbsp sunflower oil or rapeseed oil",
+            "2 x 460g jars roasted red peppers",
+            "2 tsp chipotle paste",
+            "2 tbsp red wine vinegar",
+            "1 tbsp cocoa powder",
+            "1 tbsp dried oregano",
+            "1 tbsp sweet smoked paprika",
+            "2 tbsp ground cumin",
+            "1 tsp ground cinnamon",
+            "2 x 400g cans chopped tomatoes",
+            "400g can refried beans",
+            "3 x 400g cans kidney beans, drained and rinsed",
+            "2 x 400g cans black beans, drained and rinsed"
+        ],
+        "method": [
+            "Put the onions, celery and chopped peppers with the oil in your largest flameproof casserole dish or heavy-based saucepan, and fry gently over a low heat until soft but not coloured.",
+            "Drain both jars of peppers over a bowl to catch the juices. Put a quarter of the peppers into a food processor with the chipotle paste, vinegar, cocoa, dried spices and herbs. Whizz to a pur\u00e9e, then stir into the softened veg and cook for a few mins.",
+            "Add the tomatoes and refried beans with 1 can water and the reserved pepper juice. Simmer for 1 hr until thickened, smoky and the tomato chunks have broken down to a smoother sauce.",
+            "At this stage you can cool and chill the sauce if making ahead. Otherwise add the kidney and black beans, and the remaining roasted peppers, cut into bite-sized pieces, then reheat. (This makes a large batch, so once the sauce is ready it might be easier to split it between two pans when you add the beans and peppers.) Once bubbling and the beans are hot, season to taste and serve."
+        ],
+        "notes": [
+            ""
+        ],
+        "categories": []
+    },
+    {
+        "recipe_id": 40,
+        "recipe_name": "Vegan Chilli Recipe",
+        "meal_type": "Dinner",
+        "skill_level": "Easy",
+        "servings": 4,
+        "hours": 1,
+        "minutes": 0,
+        "ingredients": [
+            "3 tbsp olive oil",
+            "2 sweet potatoes, peeled and cut into medium chunks",
+            "2 tsp smoked paprika",
+            "2 tsp ground cumin",
+            "1 onion, chopped",
+            "2 carrots, chopped",
+            "2 celery sticks, chopped",
+            "2 garlic cloves, crushed",
+            "1-2 tsp chilli powder (depending on how hot you like it)",
+            "1 tsp dried oregano",
+            "1 tbsp tomato pur\u00e9e",
+            "1 red pepper, cut into chunks",
+            "2 x 400g cans chopped tomatoes",
+            "400g can black beans, drained",
+            "400g can kidney beans, drained",
+            "lime wedges, guacamole, rice and coriander to serve"
+        ],
+        "method": [
+            "Heat the oven to 200C/180C fan/gas 6. Put the sweet potato in a roasting tin and drizzle over 1\u00bd tbsp oil, 1 tsp smoked paprika and 1 tsp ground cumin. Give everything a good mix so that all the chunks are coated in spices, season with salt and pepper, then roast for 25 mins until cooked.",
+            "Meanwhile, heat the remaining oil in a large saucepan over a medium heat. Add the onion, carrot and celery. Cook for 8-10 mins, stirring occasionally until soft, then crush in the garlic and cook for 1 min more. Add the remaining dried spices and tomato pur\u00e9e. Give everything a good mix and cook for 1 min more.",
+            "Add the red pepper, chopped tomatoes and 200ml water. Bring the chilli to a boil, then simmer for 20 mins. Tip in the beans and cook for another 10 mins before adding the sweet potato. Season to taste then serve with lime wedges, guacamole, rice and coriander. Will keep, in an airtight container in the freezer, for up to three months."
+        ],
+        "notes": [
+            "To make in a slow cooker",
+            "Heat the oil in a large frying pan over a medium heat. Add the onion, carrot and celery. Cook for 8-10 mins, stirring occasionally until soft, then crush in the garlic, tip in the sweet potato chunks and cook for 1 min more. Add all the dried spices, oregano and tomato pur\u00e9e, cook for 1 min, then tip into a slow cooker.",
+            "",
+            "Add the red pepper and chopped tomatoes. Give everything a good stir then cook on low for 5 hrs. Stir in the beans and cook for another 30 mins to 1 hr. Season to taste and serve with lime wedges, guacamole, rice and coriander."
+        ],
+        "categories": [
+            "Spicy"
+        ]
+    }
+]
