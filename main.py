@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request
+from flask import Flask, render_template, request, redirect, url_for
 import csv
 from random import randrange
 from datetime import datetime
@@ -66,15 +66,76 @@ def delete_meal():
     return render_template('all_meals.html', meals=meals, enumerate=enumerate, message_2=message)
 
 
-@app.route('/get-all-meals')
-def get_all_meals():#
+@app.route('/edit-meal')
+def edit_meal():
+    meal_name = request.args.get('meal', '').strip()
     meals = get_all_meals_from_csv()
-    return render_template('all_meals.html', meals=meals, enumerate=enumerate)
+    selected_meal = None
+
+    for meal in meals[1:]:
+        if meal and meal[0].lower() == meal_name.lower():
+            selected_meal = meal
+            break
+
+    if not selected_meal:
+        return redirect(url_for('get_all_meals'))
+
+    return render_template('edit_meal.html', meal=selected_meal, original_meal=meal_name, enumerate=enumerate)
+
+
+@app.route('/update-meal', methods=['POST'])
+def update_meal():
+    meals = get_all_meals_from_csv()
+    meal_names = [meal[0].lower() for meal in meals if meal]
+    message = None
+
+    original_meal = request.form.get('original_meal', '').strip()
+    new_meal_name = request.form.get('meal', '').strip()
+
+    if not original_meal:
+        message = 'Error! Please provide a meal name to update.'
+    elif original_meal.lower() not in meal_names:
+        message = f"Error! meal with name {original_meal} doesn't exist!"
+    elif not new_meal_name:
+        message = 'Error! Please provide a meal name.'
+    elif new_meal_name.lower() in meal_names and new_meal_name.lower() != original_meal.lower():
+        message = f"Error! meal with name {new_meal_name} already exists!"
+
+    if not message:
+        updated_meal = [
+            new_meal_name,
+            request.form['protein'],
+            request.form['carb'],
+            request.form['sauce'],
+            request.form['veg'],
+            request.form['optional_veg'],
+            request.form['recipe_links'],
+            request.form['season'],
+        ]
+
+        updated_meals = []
+        for meal in meals:
+            if meal and meal[0].lower() == original_meal.lower():
+                updated_meals.append(updated_meal)
+            else:
+                updated_meals.append(meal)
+
+        with open('meals.csv', 'w') as csv_file:
+            writer = csv.writer(csv_file)
+            writer.writerows(updated_meals)
+        return redirect(url_for('get_all_meals', message_3=f"Meal '{new_meal_name}' updated successfully"))
+
+    return render_template('edit_meal.html', meal=[new_meal_name, request.form.get('protein',''), request.form.get('carb',''), request.form.get('sauce',''), request.form.get('veg',''), request.form.get('optional_veg',''), request.form.get('recipe_links',''), request.form.get('season','')], original_meal=original_meal, enumerate=enumerate, message=message)
+
+
+@app.route('/get-all-meals')
+def get_all_meals():
+    meals = get_all_meals_from_csv()
+    return render_template('all_meals.html', meals=meals, enumerate=enumerate, message_3=request.args.get('message_3', ''))
 
 
 def current_season():
     month = datetime.now().month
-    # October to April is Winter, May to September is Summer
     if month >= 10 or month <= 4:
         return 'Winter'
     return 'Summer'
@@ -107,7 +168,6 @@ def pick_random_meals(meals: list):
             selected_meals.append(selected_meal)
 
     return selected_meals
-    
 
 
 def get_all_meals_from_csv():

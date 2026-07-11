@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Edit Meal</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 16px;
+            background: #f9f9f9;
+        }
+        .card {
+            background: white;
+            padding: 16px;
+            border-radius: 8px;
+            max-width: 700px;
+            margin: 24px auto;
+            box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+        }
+        label { font-weight: bold; }
+        input, textarea, select {
+            width: 100%;
+            padding: 10px;
+            margin-top: 4px;
+            margin-bottom: 12px;
+            font-size: 16px;
+        }
+        button, input[type="submit"] {
+            appearance: none;
+            border: none;
+            border-radius: 8px;
+            padding: 12px 16px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            width: 100%;
+            background: #2563eb;
+            color: white;
+        }
+        .btn-secondary {
+            background: #e5e7eb;
+            color: #111827;
+            margin-top: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h2>Edit Meal - {{ meal[0] }}</h2>
+        <form action="/update-meal" method="post">
+            <input type="hidden" name="original_meal" value="{{ original_meal }}">
+            <input type="hidden" name="meal" value="{{ meal[0] }}">
+
+            <label>Protein Type</label>
+            <input type="text" name="protein" value="{{ meal[1] }}">
+
+            <label>Carb Type</label>
+            <input type="text" name="carb" value="{{ meal[2] }}">
+
+            <label>Sauce</label>
+            <input type="text" name="sauce" value="{{ meal[3] }}">
+
+            <label>Veg Needed</label>
+            <input type="text" name="veg" value="{{ meal[4] }}">
+
+            <label>Optional Veg</label>
+            <input type="text" name="optional_veg" value="{{ meal[5] }}">
+
+            <label>Recipe Links (one per line)</label>
+            <textarea name="recipe_links" rows="5">{{ meal[6] }}</textarea>
+
+            <label>Season</label>
+            <select name="season">
+                <option value="Either" {% if meal[7] == 'Either' %}selected{% endif %}>Either</option>
+                <option value="Summer" {% if meal[7] == 'Summer' %}selected{% endif %}>Summer</option>
+                <option value="Winter" {% if meal[7] == 'Winter' %}selected{% endif %}>Winter</option>
+            </select>
+
+            <input type="submit" value="Save Changes">
+        </form>
+
+        <form action="/get-all-meals" method="get">
+            <button type="submit" class="btn-secondary">Cancel</button>
+        </form>
+    </div>
+</body>
+</html>
