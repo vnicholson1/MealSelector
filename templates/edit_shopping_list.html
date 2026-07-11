@@ -96,6 +96,29 @@
         .add-btn:hover {
             background: #15803d;
         }
+        @media (max-width: 768px) {
+            .column-wrapper {
+                grid-template-columns: 1fr;
+            }
+            body {
+                padding: 8px;
+            }
+            .card {
+                margin: 16px auto;
+                padding: 12px;
+            }
+            input[type="submit"] {
+                font-size: 14px;
+                padding: 10px 12px;
+            }
+            .item-row {
+                gap: 4px;
+            }
+            .remove-btn {
+                padding: 6px 8px;
+                font-size: 12px;
+            }
+        }
     </style>
 </head>
 <body>
