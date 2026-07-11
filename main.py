@@ -10,7 +10,10 @@ app = Flask(__name__)
 def main():
     meals = get_all_meals_from_csv()
     random_meals = pick_random_meals(meals)
-    return render_template('index.html',  random_meals=random_meals, enumerate=enumerate)
+    order_every_week = get_order_every_week_from_csv()
+    check_every_week = get_check_every_week_from_csv()
+    max_items = max(len(order_every_week), len(check_every_week))
+    return render_template('index.html', random_meals=random_meals, order_every_week=order_every_week, check_every_week=check_every_week, max_items=max_items, enumerate=enumerate)
 
 
 @app.route('/generate-meals', methods=['POST'])
@@ -134,6 +137,35 @@ def get_all_meals():
     return render_template('all_meals.html', meals=meals, enumerate=enumerate, message_3=request.args.get('message_3', ''))
 
 
+@app.route('/edit-shopping-list')
+def edit_shopping_list():
+    order_every_week = get_order_every_week_from_csv()
+    check_every_week = get_check_every_week_from_csv()
+    return render_template('edit_shopping_list.html', order_every_week=order_every_week, check_every_week=check_every_week)
+
+
+@app.route('/update-shopping-list', methods=['POST'])
+def update_shopping_list():
+    order_items = request.form.getlist('order_every_week[]')
+    check_items = request.form.getlist('check_every_week[]')
+    
+    with open('order_every_week.csv', 'w', newline='') as csv_file:
+        writer = csv.writer(csv_file)
+        writer.writerow(['Item'])
+        for item in order_items:
+            if item.strip():
+                writer.writerow([item])
+    
+    with open('check_every_week.csv', 'w', newline='') as csv_file:
+        writer = csv.writer(csv_file)
+        writer.writerow(['Item'])
+        for item in check_items:
+            if item.strip():
+                writer.writerow([item])
+    
+    return redirect(url_for('main'))
+
+
 def current_season():
     month = datetime.now().month
     if month >= 10 or month <= 4:
@@ -178,6 +210,20 @@ def get_all_meals_from_csv():
     meals = sorted(meals, key=lambda x: x[0])
     meals.insert(0, header)
     return meals
+
+
+def get_order_every_week_from_csv():
+    with open('order_every_week.csv') as csv_file:
+        reader = csv.reader(csv_file)
+        items = [r[0] for r in reader if len(r) > 0]
+    return items
+
+
+def get_check_every_week_from_csv():
+    with open('check_every_week.csv') as csv_file:
+        reader = csv.reader(csv_file)
+        items = [r[0] for r in reader if len(r) > 0]
+    return items
 
 
 if __name__ == '__main__':

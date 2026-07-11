@@ -141,23 +141,18 @@
                 <th>Order Every Week</th>
                 <th>Check Every Week</th>
             </tr>
-            <tr><td>Milk</td><td>Cereal</td></tr>
-            <tr><td>Bananas</td><td>Apple Juice</td></tr>
-            <tr><td>Crisps</td><td>Orange Juice</td></tr>
-            <tr><td>Puddings</td><td>Cheese</td></tr>
-            <tr><td>Lemonade x 1</td><td>Onions</td></tr>
-            <tr><td>Soy Milk x 1</td><td>Peppers</td></tr>
-            <tr><td></td><td>Bread</td></tr>
-            <tr><td></td><td>Poppadoms</td></tr>
-            <tr><td></td><td>Prawn crackers</td></tr>
-            <tr><td></td><td>Quorn pieces</td></tr>
-            <tr><td></td><td>Toilet roll</td></tr>
-            <tr><td></td><td>Eggs</td></tr>
-            <tr><td></td><td>Chips</td></tr>
-            <tr><td></td><td>Frozen peas</td></tr>
-            <tr><td></td><td>Mushrooms</td></tr>
+            {% for i in range(max_items) %}
+            <tr>
+                <td>{{ order_every_week[i+1] if i+1 < order_every_week|length else '' }}</td>
+                <td>{{ check_every_week[i+1] if i+1 < check_every_week|length else '' }}</td>
+            </tr>
+            {% endfor %}
         </table>
     </div>
+
+    <form action="/edit-shopping-list">
+        <input type="submit" value="Update Shopping List" class="btn-secondary">
+    </form>
 </div>
 
 </body>

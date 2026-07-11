@@ -223,6 +223,8 @@
                 <td>
                     <a class="btn-link" href="/edit-meal?meal={{ meal[0] }}">Update</a>
                 </td>
+                {% else %}
+                <th>Update</th>
                 {% endif %}
             </tr>
             {% endfor %}
