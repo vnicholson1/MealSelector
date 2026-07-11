@@ -1,44 +1,44 @@
-Meal,Protein type,Carb type,Sauce,Veg needed,Optional veg, Recipe Links
-Babotie,"Quorn mince, egg",Bread,,"Onion, sultana, ",,https://www.bbcgoodfood.com/recipes/bobotie
-Bolognese,Quorn mince,Pasta,Bolognese Sauce,,,
-Burgers,n/a,"Bread, potato",,,Salad,
-Carbonara,Bacon,Pasta,,,,
-Casserole,Sausage/Quorn,Potatoe,Casserole,,,https://www.bbcgoodfood.com/recipes/veggie-sausage-casserole
-Cauliflower cheese,,,,,,https://www.bbcgoodfood.com/recipes/cauliflower-cheese-0
-Chicken in white wine sauce,"Quorn pieces, Quorn fillets",Potato,,,,
-Chilli,Quorn mince,Rice,Chilli sauce,,,
-Crispbakes,n/a,Potato,n/a,,,
-Curry,Quorn pieces,Rice,Curry sauce,,,https://www.bbcgoodfood.com/recipes/creamy-halloumi-tomato-curry
-Enchiladas,Quorn pieces,Tortilla,n/a,,,
-Fajitas,Quorn pieces,Tortilla,n/a,Pepper,Tomatoes,
-Green thai curry,"Tofu, Quorn Pieces",Rice,Green Thai Paste,,,
-Halloumi salad,Cheese,Quinoa,n/a,"Pepper, mushroom",,http://192.168.1.123:5000/Recipe_Result.html?recipeName=Quinoa%20salad%20with%20grilled%20halloumi
-Homemade pie,Quorn pieces,Pastry,,,,https://www.bbc.co.uk/food/recipes/chickenandmushroompi_89034
-Hot dogs,sausage,bread,,,salad?,
-Kebabs,Veggie kebab meat,Pitta bread,,Salad,,
-Lasagne,Quorn mince,Pasta,"Red sauce, white sauce",,,
-Meatballs,Meatballs,Potato,"Pasta sauce, Gravy",n/a,n/a,
-Meatballs and spaghetti,Meatballs,Pasta,Pasta sauce,,,
-Nachos,,,,,,
-Pad thai,"Tofu, Quorn Pieces",Noodles,n/a,,,http://192.168.1.123:5000/Recipe_Result.html?recipeName=Pad%20Thai
-Paella,"Sausage, Quorn pieces",Rice,,,,
-Pasta bake,Chickpeas,Pasta,Pasta bake sauce,,Spinach,
-Pies,n/a,Potato,Gravy,,,
-Pizza,n/a,Pizza base,n/a,n/a,Salad,
-Quiche,,Pastry,,Salad,,
-Ramen,Tofu,Noodles,"Tahini, soy sauce","Carrot, bean sprouts, Pak choi, mushrooms, ginger",,https://www.bbcgoodfood.com/recipes/vegan-ramen
-Red thai curry,"Tofu, Quorn Pieces",Rice,Red Thai Paste,,,
-Risotto ,Sausage,Rice,n/a,Peas,,
-Roast dinner,Quorn,Potato,Gravy,,,https://glutenfreecuppatea.co.uk/2017/10/01/gluten-free-yorkshire-pudding-recipe-dairy-free-low-fodmap/
-Roasted vegetables,"Quorn pieces, Chickpeas","Garlic bread, Potato",n/a,Lots...,,
-Sausage and Mash,Sausage,Potato,Gravy,,,
-Shepherd's Pie,Quorn mince,Potato,Gravy,,,
-Spanish 'chicken',"Quorn pieces, Sausage, Halloumi",Potato,Spanish chicken sauce,Pepper,,
-Stir fry,"Tofu, Quorn Pieces","Noodles, Rice",Sweet and sour or kung po,,,
-Stroganoff,"Sausage, Mushroom",,,,,https://www.bbc.co.uk/food/recipes/mushroom_stroganoff_with_83256
-Stuffed peppers,Quorn mince,Potato,,Pepper,,
-Tacos,Quorn mince,Tacos,,Salad,,
-Toad in the hole,Sausge,Batter,Gravy,,,https://glutenfreecuppatea.co.uk/2015/05/13/recipe-gluten-free-toad-in-the-hole-dairy-free-option/
-Wan-Chai Fried Rice Bowl,"Egg, Miso Chicken",Rice,,"Edamame beans, kale, spring onions",,
-Tartiflette,Bacon,Potato,,,,https://www.bbc.co.uk/food/recipes/tartiflette_59096
-Burrito,Beans,Wrap,,Salad,Avocado,
+Meal,Protein type,Carb type,Sauce,Veg needed,Optional veg, Recipe Links, Season
+Babotie,"Quorn mince, egg",Bread,,"Onion, sultana, ",,https://www.bbcgoodfood.com/recipes/bobotie,Winter
+Bolognese,Quorn mince,Pasta,Bolognese Sauce,,,,Either
+Burgers,n/a,"Bread, potato",,,Salad,,Either
+Carbonara,Bacon,Pasta,,,,,Either
+Casserole,Sausage/Quorn,Potatoe,Casserole,,,https://www.bbcgoodfood.com/recipes/veggie-sausage-casserole, Winter
+Cauliflower cheese,,,,,,https://www.bbcgoodfood.com/recipes/cauliflower-cheese-0,Winter
+Chicken in white wine sauce,"Quorn pieces, Quorn fillets",Potato,,,,,Winter
+Chilli,Quorn mince,Rice,Chilli sauce,,,,Either
+Crispbakes,n/a,Potato,n/a,,,,Either
+Curry,Quorn pieces,Rice,Curry sauce,,,https://www.bbcgoodfood.com/recipes/creamy-halloumi-tomato-curry,Either
+Enchiladas,Quorn pieces,Tortilla,n/a,,,,Either
+Fajitas,Quorn pieces,Tortilla,n/a,Pepper,Tomatoes,,Either
+Green thai curry,"Tofu, Quorn Pieces",Rice,Green Thai Paste,,,,Either
+Halloumi salad,Cheese,Quinoa,n/a,"Pepper, mushroom",,http://192.168.1.123:5000/Recipe_Result.html?recipeName=Quinoa%20salad%20with%20grilled%20halloumi,Either
+Homemade pie,Quorn pieces,Pastry,,,,https://www.bbc.co.uk/food/recipes/chickenandmushroompi_89034,Winter
+Hot dogs,sausage,bread,,,salad?,,Either
+Kebabs,Veggie kebab meat,Pitta bread,,Salad,,,Either
+Lasagne,Quorn mince,Pasta,"Red sauce, white sauce",,,,Winter
+Meatballs and Potatoes,Meatballs,Potato,"Pasta sauce, Gravy",n/a,n/a,,Winter
+Meatballs and spaghetti,Meatballs,Pasta,Pasta sauce,,,,Either
+Nachos,,,,,,,Either
+Pad thai,"Tofu, Quorn Pieces",Noodles,n/a,,,http://192.168.1.123:5000/Recipe_Result.html?recipeName=Pad%20Thai,Either
+Paella,"Sausage, Quorn pieces",Rice,,,,,Either
+Pasta bake,Chickpeas,Pasta,Pasta bake sauce,,Spinach,,Either
+Pies,n/a,Potato,Gravy,,,,Winter
+Pizza,n/a,Pizza base,n/a,n/a,Salad,,Either
+Quiche,,Pastry,,Salad,,,Summer
+Ramen,Tofu,Noodles,"Tahini, soy sauce","Carrot, bean sprouts, Pak choi, mushrooms, ginger",,https://www.bbcgoodfood.com/recipes/vegan-ramen,Either
+Red thai curry,"Tofu, Quorn Pieces",Rice,Red Thai Paste,,,,Either
+Risotto ,Sausage,Rice,n/a,Peas,,,Either
+Roast dinner,Quorn,Potato,Gravy,,,https://glutenfreecuppatea.co.uk/2017/10/01/gluten-free-yorkshire-pudding-recipe-dairy-free-low-fodmap/,Winter
+Roasted vegetables,"Quorn pieces, Chickpeas","Garlic bread, Potato",n/a,Lots...,,,Either
+Sausage and Mash,Sausage,Potato,Gravy,,,,Winter
+Shepherd's Pie,Quorn mince,Potato,Gravy,,,,Winter
+Spanish 'chicken',"Quorn pieces, Sausage, Halloumi",Potato,Spanish chicken sauce,Pepper,,,Either
+Stir fry,"Tofu, Quorn Pieces","Noodles, Rice",Sweet and sour or kung po,,,,Either
+Stroganoff,"Sausage, Mushroom",,,,,https://www.bbc.co.uk/food/recipes/mushroom_stroganoff_with_83256,Winter
+Stuffed peppers,Quorn mince,Potato,,Pepper,,,Winter
+Tacos,Quorn mince,Tacos,,Salad,,,Either
+Toad in the hole,Sausge,Batter,Gravy,,,https://glutenfreecuppatea.co.uk/2015/05/13/recipe-gluten-free-toad-in-the-hole-dairy-free-option/,Winter
+Wan-Chai Fried Rice Bowl,"Egg, Miso Chicken",Rice,,"Edamame beans, kale, spring onions",,,Either
+Tartiflette,Bacon,Potato,,,,https://www.bbc.co.uk/food/recipes/tartiflette_59096,Winter
+Burrito,Beans,Wrap,,Salad,Avocado,,Either

@@ -1,6 +1,7 @@
 from flask import Flask, render_template, request
 import csv
 from random import randrange
+from datetime import datetime
 
 app = Flask(__name__)
 
@@ -30,7 +31,16 @@ def add_meal():
     if not message:
         with open('meals.csv', 'a') as csv_file:
             writer = csv.writer(csv_file)
-            writer.writerow([request.form['meal'], request.form['protein'], request.form['carb'], request.form['sauce'], request.form['veg'], request.form['optional_veg'], request.form['recipe_links']])
+            writer.writerow([
+                request.form['meal'],
+                request.form['protein'],
+                request.form['carb'],
+                request.form['sauce'],
+                request.form['veg'],
+                request.form['optional_veg'],
+                request.form['recipe_links'],
+                request.form['season'],
+            ])
         message= f"meal with name {request.form['meal']} added successfully"
 
     meals = get_all_meals_from_csv()
@@ -57,23 +67,48 @@ def delete_meal():
 
 
 @app.route('/get-all-meals')
-def get_all_meals():
+def get_all_meals():#
     meals = get_all_meals_from_csv()
     return render_template('all_meals.html', meals=meals, enumerate=enumerate)
 
 
+def current_season():
+    month = datetime.now().month
+    # October to April is Winter, May to September is Summer
+    if month >= 10 or month <= 4:
+        return 'Winter'
+    return 'Summer'
+
+
+def meal_matches_season(meal: list, season: str):
+    if len(meal) <= 7:
+        return True
+    meal_season = meal[7].strip().title()
+    return meal_season in ('Either', season, '')
+
+
 def pick_random_meals(meals: list):
-    selected_meals = []
-    selected_meals.append(meals[0])
-    for _ in range(7):
-        random_number = randrange(1, len(meals))
-        selected_meal = meals[random_number]
-        while selected_meal in selected_meals:
-            random_number = randrange(1, len(meals))
-            selected_meal = meals[random_number]
-        selected_meals.append(selected_meal)
+    header = meals[0]
+    season = current_season()
+    meal_rows = [meal for meal in meals[1:] if meal]
+    allowed_meals = [meal for meal in meal_rows if meal_matches_season(meal, season)]
+    if not allowed_meals:
+        allowed_meals = meal_rows
+
+    selected_meals = [header]
+    if len(allowed_meals) <= 7:
+        selected_meals.extend(allowed_meals)
+        return selected_meals
+
+    while len(selected_meals) < 8:
+        random_number = randrange(0, len(allowed_meals))
+        selected_meal = allowed_meals[random_number]
+        if selected_meal not in selected_meals:
+            selected_meals.append(selected_meal)
+
     return selected_meals
     
+
 
 def get_all_meals_from_csv():
     with open('meals.csv') as csv_file:
